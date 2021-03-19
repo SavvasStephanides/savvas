@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #393e46;
+}
+
+main{
+    margin-top: 30px;
+}
+
+.handwritten-font{
+    font-family: 'Pacifico', cursive;
+}
+
+.serif-font{
+    font-family: 'Merriweather', serif;
+}
+
+.sans-serif-font{
+    font-family: 'Montserrat', sans-serif;
+}

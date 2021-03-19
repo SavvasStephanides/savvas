@@ -1,0 +1,18 @@
+header{
+    background-color: #222831;
+    height: 90px;
+    display: flex;
+}
+
+header #site-name{
+    margin: auto;
+    font-size: 36px;
+    font-family: 'Pacifico', cursive;
+    text-shadow: 0 0 30px #32e0c4;
+}
+
+header #site-name a{
+    color: #eee;
+    text-decoration: none;
+}
+

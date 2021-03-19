@@ -1,0 +1,46 @@
+ul.post-list{
+    list-style: none;
+}
+
+@media (min-width: 600px){
+    ul.post-list{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 900px){
+    ul.post-list{
+        display: grid;
+        width: 900px;
+        margin: auto;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+ul.post-list li a{
+    display: block;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+ul.post-list li a .thumbnail{
+    background: black;
+    height: 210px;
+    background: url('/thumbnails/default.png');
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+    background-position: center center !important;
+    background-color: #222831;
+}
+
+ul.post-list li a .details{
+    padding: 30px 0;
+}
+
+ul.post-list li a .details h3{
+    font-size: 21px;
+    text-align: center;
+    line-height: 1.5;
+}
