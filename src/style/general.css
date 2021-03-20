@@ -22,3 +22,12 @@ main{
 .sans-serif-font{
     font-family: 'Montserrat', sans-serif;
 }
+
+main > h1{
+    color: white;
+    max-width: 900px;
+    margin: auto;
+    margin-bottom: 60px;
+    margin-top: 60px;
+    text-align: center;
+}

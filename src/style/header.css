@@ -1,18 +1,43 @@
-header{
+header #site-name{
     background-color: #222831;
     height: 90px;
     display: flex;
+    
 }
 
-header #site-name{
+header #site-name a{
+    display: block;
     margin: auto;
     font-size: 36px;
     font-family: 'Pacifico', cursive;
     text-shadow: 0 0 30px #32e0c4;
-}
-
-header #site-name a{
     color: #eee;
     text-decoration: none;
 }
 
+header nav{
+    background-color: #222831;
+}
+
+header nav ul{
+    list-style: none;
+    max-width: 900px;
+    margin: auto;
+    display: flex;
+    overflow-x: auto;
+}
+
+header nav ul li a{
+    color: #eeeeee;
+    display: block;
+    text-decoration: none;
+    padding: 15px;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+header nav ul li a[aria-current="page"]{
+    background-color: #393e46;
+    text-decoration: underline;
+    border-radius: 15px 15px 0 0;
+}

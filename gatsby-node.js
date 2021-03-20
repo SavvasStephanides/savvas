@@ -8,6 +8,7 @@ const converter = new showdown.Converter({metadata: true})
 exports.sourceNodes = async (graphql)=>{
     const posts = getPostsFromFiles()
     storePostsInGraphQL(graphql, posts)
+    storeSeriesInGraphQL(graphql, series)
 }
 
 exports.createPages = async({actions, graphql}) => {
@@ -49,9 +50,44 @@ function storePostsInGraphQL({ actions, createNodeId, createContentDigest }, pos
     })
 }
 
-async function createPages(actions, graphql){
+function storeSeriesInGraphQL({ actions, createNodeId, createContentDigest }, series){
+    series.forEach(seriesItem => {
+        const node = {
+            id: createNodeId(`Series-${seriesItem.slug}`),
+            slug: seriesItem.slug,
+            title: seriesItem.title,
+            internal: {
+                type: "Series",
+                contentDigest: createContentDigest(seriesItem)
+            }
+        }
 
-    series.forEach((seriesItem) => {
+        actions.createNode(node)
+    })
+}
+
+async function createPages(actions, graphql){
+    const {data} = await graphql(`
+    {
+        allPost {
+          nodes {
+              slug
+              meta{
+                  series
+              }
+          }
+        }
+        allSeries {
+          nodes {
+            slug
+            title
+          }
+        }
+      }
+      
+    `)
+
+    data.allSeries.nodes.forEach((seriesItem) => {
         actions.createPage({
             path: `/${seriesItem.slug}`,
             component: require.resolve(`./src/templates/series.js`),
@@ -60,21 +96,6 @@ async function createPages(actions, graphql){
             }
         })
     })
-    const {data} = await graphql(`
-    {
-        allPost {
-            nodes {
-                slug
-                meta{
-                    series
-                }
-            }
-        }
-    }
-    `)
-
-    console.log(JSON.stringify(data))
-
     data.allPost.nodes.forEach((post) => {
         actions.createPage({
             path: `/${post.meta.series}/${post.slug}`,

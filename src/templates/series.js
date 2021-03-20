@@ -7,12 +7,12 @@ import PostList from "../components/post-list";
 export default function Post({data}) {
     const posts = data.allPost.nodes
     
-    return <Layout>
+    return <Layout highlightedLink={posts[0].series.slug}>
         <Helmet>
-          <title>Series - Savvas Stephanides</title>
+          <title>{posts[0].series.title} - Savvas Stephanides</title>
         </Helmet>
 
-        <h1>{posts[0].series.title}</h1>
+        <h1 className="serif-font">{posts[0].series.title}</h1>
 
         <PostList posts={posts}/>
         

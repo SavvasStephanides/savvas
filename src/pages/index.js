@@ -7,17 +7,18 @@ import { Helmet } from "react-helmet"
 export default function Home({data}) {
   const posts = data.allPost.nodes
 
-  return <Layout>
+  return <Layout highlightedLink="home">
     <Helmet>
       <title>Savvas Stephanides</title>
     </Helmet>
+    <h1 className="serif-font">Latest posts</h1>
     <PostList posts={posts} />
   </Layout>
 }
 
 export const query = graphql`
 {
-  allPost {
+  allPost(sort: {order: DESC, fields: meta___publishDate}) {
     nodes {
       id
       slug

@@ -1,11 +1,11 @@
 [
     {
-        "slug": "explained",
-        "title": "Explained"
-    },
-    {
         "slug": "tips",
         "title": "Tips"
+    },
+    {
+        "slug": "explained",
+        "title": "Explained"
     },
     {
         "slug": "reviews",

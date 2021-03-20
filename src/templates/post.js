@@ -7,7 +7,7 @@ import Article from "../components/article"
 export default function Post({data}) {
     
     const post = data.post
-    return <Layout>
+    return <Layout highlightedLink={post.series.slug}>
         <Helmet>
           <title>{post.meta.title} - Savvas Stephanides</title>
         </Helmet>
