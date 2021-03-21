@@ -1,5 +1,6 @@
 import React from "react"
 import "../style/general.css"
+import "../style/fontawesome/css/all.css"
 import Header from "../components/header"
 import Footer from "../components/footer"
 
