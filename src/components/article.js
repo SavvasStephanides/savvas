@@ -10,9 +10,6 @@ export default function Article({title, thumbnail, content, series}){
         <figure className="cover">
             <img src={"/thumbnails/" + thumbnail} alt=""/>
         </figure>
-        <div id="series">
-            <a className="sans-serif-font" href={"/" + series.slug}>{series.title}</a>
-        </div>
         <h1 className="serif-font">{title}</h1>
         {/* <div className="ad" dangerouslySetInnerHTML={{__html: `<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
             <ins class="adsbygoogle"

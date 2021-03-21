@@ -1,6 +1,6 @@
 ---
 title: The problem with the typewriter effect and how to fix it
-series: accessibility-problems
+series: accessibility
 thumbnail: default.png
 publishDate: 2021-03-04 00:00
 ---

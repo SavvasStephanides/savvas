@@ -5,16 +5,9 @@ ul.post-list{
 @media (min-width: 600px){
     ul.post-list{
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-@media (min-width: 900px){
-    ul.post-list{
-        display: grid;
-        width: 900px;
+        max-width: 900px;
         margin: auto;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
@@ -25,14 +18,21 @@ ul.post-list li a{
     text-decoration: none;
 }
 
+ul.post-list li a:hover{
+    text-decoration: underline;
+}
+
 ul.post-list li a .thumbnail{
-    background: black;
     height: 210px;
     background: url('/thumbnails/default.png');
     background-repeat: no-repeat !important;
     background-size: contain !important;
     background-position: center center !important;
-    background-color: #222831;
+    background-color: #222831 !important;
+    background-origin: content-box!important;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px #222831;
 }
 
 ul.post-list li a .details{
@@ -41,6 +41,5 @@ ul.post-list li a .details{
 
 ul.post-list li a .details h3{
     font-size: 21px;
-    text-align: center;
     line-height: 1.5;
 }
