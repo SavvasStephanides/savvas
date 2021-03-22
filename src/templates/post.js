@@ -12,7 +12,7 @@ export default function Post({data}) {
           <title>{post.meta.title} - Savvas Stephanides</title>
         </Helmet>
         
-        <Article title={post.meta.title} thumbnail={post.meta.thumbnail} content={post.contentHtml} series={post.series}/>
+        <Article title={post.meta.title} thumbnail={post.meta.thumbnail} content={post.contentHtml}/>
     </Layout>
 }
 

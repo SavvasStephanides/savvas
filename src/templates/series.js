@@ -21,7 +21,7 @@ export default function Post({data}) {
 
 export const query = graphql`
 query ($slug: String!) {
-  allPost(filter: {series: {slug: {eq: $slug}}}) {
+  allPost(sort: {order: ASC, fields: meta___publishDate}, filter: {series: {slug: {eq: $slug}}}) {
     nodes {
       slug
       title
