@@ -1,6 +1,6 @@
 ---
 series: explained
-title: What is Scope in Javascript? Let's explain!
+title: Javascript Scopes, explained.
 publishDate: 2021-03-18 00:00
 thumbnail: scope.png
 ---

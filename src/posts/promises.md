@@ -1,6 +1,6 @@
 ---
 series: explained
-title: What are Promises in Javascript? Let's explain!
+title: Javascript Promises, explained.
 publishDate: 2021-03-23 13:57
 thumbnail: promise.png
 ---
