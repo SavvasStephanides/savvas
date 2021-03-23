@@ -7,12 +7,13 @@ import Article from "../components/article"
 export default function Post({data}) {
     
     const post = data.post
+    console.log(new Date(post.meta.publishDate));
     return <Layout highlightedLink={post.series.slug}>
         <Helmet>
           <title>{post.meta.title} - Savvas Stephanides</title>
         </Helmet>
         
-        <Article title={post.meta.title} thumbnail={post.meta.thumbnail} content={post.contentHtml}/>
+        <Article title={post.meta.title} thumbnail={post.meta.thumbnail} content={post.contentHtml} publishDate={new Date(post.meta.publishDate)}/>
     </Layout>
 }
 
@@ -23,11 +24,11 @@ query ($slug: String!) {
         contentHtml
         series {
             slug
-            title
         }
         meta {
             title
             thumbnail
+            publishDate
         }
     }
 }

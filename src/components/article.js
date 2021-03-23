@@ -2,7 +2,7 @@ import React from "react"
 import "../style/article.css"
 import { Helmet } from "react-helmet"
 
-export default function Article({title, thumbnail, content}){
+export default function Article({title, thumbnail, content, publishDate}){
     return <div className="article-container">
         <Helmet>
             <title>{title} - Savvas Stephanides</title>
@@ -13,6 +13,7 @@ export default function Article({title, thumbnail, content}){
         <article>
             <header>
                 <h1 className="serif-font">{title}</h1>
+                <div className="publish-date sans-serif-font">Published {publishDate.getDate()} {publishDate.toLocaleString('default', { month: 'long' })} {publishDate.getFullYear()}</div>
             </header>
             {/* <div className="ad" dangerouslySetInnerHTML={{__html: `<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
             <ins class="adsbygoogle"
@@ -24,7 +25,7 @@ export default function Article({title, thumbnail, content}){
             <script>
                 (adsbygoogle = window.adsbygoogle || []).push({});
             </script>`}}></div> */}
-            <div dangerouslySetInnerHTML={{__html: content}} className="sans-serif-font"></div>
+            <div dangerouslySetInnerHTML={{__html: content}} className="sans-serif-font main-article"></div>
         </article>
         
         

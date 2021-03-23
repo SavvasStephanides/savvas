@@ -32,6 +32,16 @@
     margin-top: 30px;
 }
 
+.article-container .publish-date{
+    margin-top: 15px;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.article-container .main-article{
+    margin-top: 90px;
+}
+
 .article-container p,
 .article-container pre,
 .article-container ul,
