@@ -14,3 +14,12 @@ footer .notice{
 footer .notice a{
     color: white;
 }
+
+footer .bmc {
+    text-align: center;
+    margin-top: 30px;
+}
+
+footer .bmc img{
+    width: 200px;
+}
