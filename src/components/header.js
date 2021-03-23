@@ -22,6 +22,7 @@ export default function Header({highlightedLink}){
                 <li><a href="https://github.com/savvasstephanides" target="_blank" rel="noopener noreferrer" aria-label="Github"><i class="fab fa-github" aria-hidden="true"></i></a></li>
                 <li><a href="https://stackexchange.com/users/457254/savv?tab=accounts" target="_blank" rel="noopener noreferrer" aria-label="Stack Exchange"><i class="fab fa-stack-exchange" aria-hidden="true"></i></a></li>
                 <li><a href="https://www.instagram.com/sa.vvas/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+                <li><a href="https://buymeacoffee.com/SavvasStephnds" target="_blank" rel="noopener noreferrer" aria-label="Buy me a coffee"><i class="fas fa-mug-hot" aria-hidden="true"></i></a></li>
             </ul>
         </section>
         <nav>

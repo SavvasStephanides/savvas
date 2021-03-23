@@ -32,6 +32,7 @@ header section#socials ul{
 
 header section#socials li{
     padding: 15px;
+    align-self: center;
 }
 
 header section#socials li a{
