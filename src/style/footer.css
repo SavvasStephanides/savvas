@@ -8,4 +8,9 @@ footer .notice{
     text-align: center;
     color: #eee;
     font-size: 21px;
+    margin-top: 30px;
+}
+
+footer .notice a{
+    color: white;
 }
