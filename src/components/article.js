@@ -15,7 +15,7 @@ export default function Article({title, thumbnail, content, publishDate}){
                 <h1 className="serif-font">{title}</h1>
                 <div className="publish-date sans-serif-font">Published {publishDate.getDate()} {publishDate.toLocaleString('default', { month: 'long' })} {publishDate.getFullYear()}</div>
             </header>
-            { <div className="ad" dangerouslySetInnerHTML={{__html: `<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            {/* <div className="ad" dangerouslySetInnerHTML={{__html: `<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
             <ins class="adsbygoogle"
                 style="display:block"
                 data-ad-client="ca-pub-2194018182042050"
@@ -24,7 +24,7 @@ export default function Article({title, thumbnail, content, publishDate}){
                 data-full-width-responsive="true"></ins>
             <script>
                 (adsbygoogle = window.adsbygoogle || []).push({});
-            </script>`}}></div> }
+            </script>`}}></div> */}
             <div dangerouslySetInnerHTML={{__html: content}} className="sans-serif-font main-article"></div>
         </article>
         
