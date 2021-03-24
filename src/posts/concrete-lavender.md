@@ -1,7 +1,7 @@
 ---
 series: reviews
 title: Website review #2 - Concrete and Lavender (Maria Spyrou)
-thumbnail: tick.png
+thumbnail: tick-concrete.png
 publishDate: 2021-03-19 14:30
 ---
 

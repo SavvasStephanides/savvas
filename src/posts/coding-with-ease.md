@@ -1,7 +1,7 @@
 ---
 series: reviews
 title: Website review #4 - Coding with Ease (Godspower Eze)
-thumbnail: tick.png
+thumbnail: tick-ease.png
 publishDate: 2021-03-22 12:23
 ---
 

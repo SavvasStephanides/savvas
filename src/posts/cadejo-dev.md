@@ -1,7 +1,7 @@
 ---
 series: reviews
 title: Website review #1 - Cadejo.Dev (Vinicio Vladimir Sánchez Trejo)
-thumbnail: tick.png
+thumbnail: tick-cadejo.png
 publishDate: 2021-03-19 08:45
 ---
 
