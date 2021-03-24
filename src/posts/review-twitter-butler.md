@@ -1,6 +1,6 @@
 ---
 series: reviews
-title: Website review 3 - Twitter Butler Digest
+title: Website review #3 - Twitter Butler Digest
 thumbnail: tick.png
 publishDate: 2021-03-20 09:57
 ---
