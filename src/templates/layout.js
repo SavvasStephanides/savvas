@@ -1,12 +1,14 @@
 import React from "react"
 import "../style/general.css"
 import "../style/fontawesome/css/all.css"
+import "../style/highlight.css"
 import Header from "../components/header"
 import Footer from "../components/footer"
 
 import { Helmet } from "react-helmet"
 
 export default function Layout({children, highlightedLink}){
+    
     return <div id="app">
         <Helmet htmlAttributes={{ lang: 'en' }}>
             <link rel="preconnect" href="https://fonts.gstatic.com"/>
@@ -17,5 +19,7 @@ export default function Layout({children, highlightedLink}){
             {children}
         </main>
         <Footer/>
+        
+
     </div>
 }

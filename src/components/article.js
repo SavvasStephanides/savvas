@@ -1,8 +1,13 @@
-import React from "react"
+import React, { useEffect } from "react"
 import "../style/article.css"
 import { Helmet } from "react-helmet"
+import hljs from 'highlight.js'
 
 export default function Article({title, thumbnail, content, publishDate}){
+    useEffect(() => {
+        hljs.highlightAll()
+    }, [])
+    
     return <div className="article-container">
         <Helmet>
             <title>{title} - Savvas Stephanides</title>
@@ -27,7 +32,6 @@ export default function Article({title, thumbnail, content, publishDate}){
             </script>`}}></div> */}
             <div dangerouslySetInnerHTML={{__html: content}} className="sans-serif-font main-article"></div>
         </article>
-        
         
     </div>
 }
