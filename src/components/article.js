@@ -13,7 +13,7 @@ export default function Article({title, thumbnail, content, publishDate}){
         <article>
             <header>
                 <h1 className="serif-font">{title}</h1>
-                <div className="publish-date sans-serif-font">Published {publishDate.toLocaleString()}</div>
+                <div className="publish-date sans-serif-font">{publishDate && "Published " + publishDate.toLocaleString()}</div>
             </header>
             {/* <div className="ad" dangerouslySetInnerHTML={{__html: `<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
             <ins class="adsbygoogle"
