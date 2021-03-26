@@ -1,7 +1,7 @@
 ---
 series: explained
 title: Accessibility, explained.
-publishDate: 2021-03-23 16:33
+publishDate: 2021/03/23 16:33
 thumbnail: a11y.png
 ---
 So let's say you’re browsing the web, reading articles on the latest news. An article catches your eye so you open the page to read it. You love the article, so much so that you decided to share it with your good friend.

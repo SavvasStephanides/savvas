@@ -2,7 +2,7 @@
 series: tips
 title: 7 things I wish I knew when I started programming
 thumbnail: seven.png
-publishDate: 2021-03-21 13:17
+publishDate: 2021/03/21 13:17
 ---
 
 ## Introduction

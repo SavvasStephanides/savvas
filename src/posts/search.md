@@ -2,7 +2,7 @@
 series: tips
 title: Need search for your website? THIS is the easiest way to do it!
 thumbnail: default.png
-publishDate: 2021-03-04 00:00
+publishDate: 2021/03/04 00:00
 ---
 
 Do you have a website with loads of data? Chances are your users will have a difficult time finding what they need *unless* you have a search box they can use. But that sounds like a difficult task! What if I told you there's a fast and easy way to add powerful search functionality to your website?

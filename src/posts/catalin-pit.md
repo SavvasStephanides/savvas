@@ -2,7 +2,7 @@
 series: reviews
 title: Website review #5 - Catalin Pit
 thumbnail: tick-catalinpit.png
-publishDate: 2021-03-25 08:40
+publishDate: 2021/03/25 08:40
 ---
 
 ## Introduction
