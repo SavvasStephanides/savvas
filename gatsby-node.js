@@ -16,7 +16,9 @@ exports.createPages = async({actions, graphql}) => {
 }
 
 function getPostsFromFiles(){
-    const postFiles = fs.readdirSync("./src/posts").filter(file => file.endsWith(".md"))
+    const postFiles = fs.readdirSync("./src/posts")
+        .filter(file => file.endsWith(".md"))
+        .filter(file => !file.startsWith("_"))
     
     const posts = postFiles.map((file) => {
         var content = fs.readFileSync("./src/posts/" + file, "utf-8")
