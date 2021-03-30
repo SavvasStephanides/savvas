@@ -2,10 +2,12 @@
 series: reviews
 title: Website review #6 - Agathe Badia
 thumbnail: tick-agathe.png
-publishDate: 2021/03/26 14:30
+publishDate: 2021/03/30 08:44
 ---
 
 ## Introduction
+
+![](/assets/agathe-home.png)
 
 A few days ago I [posted a tweet](https://twitter.com/SavvasStephnds/status/1372827437290172424) asking for followers' websites for me to review on my website. [Agathe responded with hers](https://twitter.com/Agathe_BADIA/status/1373006908286717952).
 
