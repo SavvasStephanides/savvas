@@ -31,3 +31,16 @@ main > h1{
     margin-top: 60px;
     text-align: center;
 }
+
+#skip-navigation{
+    position: absolute;
+    color: #eee;
+    text-decoration: none;
+    padding: 15px;
+    border: 3px solid #32e0c4;
+    top: -100%;
+}
+
+#skip-navigation:focus{
+    top: 0;
+}
