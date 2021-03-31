@@ -6,6 +6,7 @@ import Header from "../components/header"
 import Footer from "../components/footer"
 
 import { Helmet } from "react-helmet"
+import NewsletterSignUp from "../components/newsletter-signup"
 
 export default function Layout({children, highlightedLink}){
     
@@ -17,7 +18,9 @@ export default function Layout({children, highlightedLink}){
         <a id="skip-navigation" className="sans-serif-font" href="#main-content">Skip navigation</a>
         <Header highlightedLink={highlightedLink}/>
         <main id="main-content">
+            
             {children}
+            <NewsletterSignUp/>
         </main>
         <Footer/>
         

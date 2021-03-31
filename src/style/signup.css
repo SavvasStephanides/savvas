@@ -1,0 +1,64 @@
+#newsletter-signup{
+    background-color: #222831;
+}
+
+@media (min-width: 600px){
+    #newsletter-signup{
+        border: 3px solid #32e0c4;
+        box-shadow: 0 0 9px #32e0c4;
+        max-width: 600px;
+        border-radius: 15px;
+        margin: auto;
+    }
+}
+
+#newsletter-signup #revue-embed{
+    padding: 30px;
+}
+
+#newsletter-signup #revue-embed form{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+#newsletter-signup #revue-embed .revue-form-footer{
+    margin-top: 15px;
+}
+
+#newsletter-signup #revue-embed .revue-form-footer a{
+    color: #eee;
+}
+
+#newsletter-signup #revue-embed h2,
+#newsletter-signup #revue-embed .revue-form-footer{
+    color: #eee;
+}
+
+#newsletter-signup #revue-embed h2{
+    text-align: center;
+}
+
+#member_email{
+    display: block;
+    padding: 6px;
+    background-color: #222831;
+    color: #eee;
+    border: 1px solid #eee;
+    font-size: 18px;
+}
+
+#member_submit{
+    width: 100%;
+    padding: 6px;
+    background-color: #222831;
+    color: #eee;
+    font-size: 18px;
+    border: 1px solid #eee;
+}
+
+.description{
+    color: #eee;
+    margin-top: 15px;
+    text-align: center;
+}
