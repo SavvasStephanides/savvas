@@ -17,7 +17,7 @@ Now a few lines down you need to check if the `number` variable is in fact equal
 
 ```js
 if (number === 1000){
-    console.log("Number is one thousand”)
+    console.log("Number is one thousand")
 }
 ```
 
@@ -30,12 +30,12 @@ NumberCheck.js is a library that makes explicit checks to numerical variables.
 For example:
 
 ```js
-const nc = require(“numbercheck”)
+const nc = require("numbercheck")
 
 let number = 1000
 
 if (nc.isOneThousand(number)){
-    console.log(“Number is one thousand”)
+    console.log("Number is one thousand")
 }
 ```
 
@@ -52,27 +52,43 @@ Let’s look at a few more examples:
 Number is equal to 25:
 
 ```js
-const nc = require(“numbercheck”)
+const nc = require("numbercheck")
 
 let number = 25
 
 if (nc.isTwentyFive(number)){
-    console.log(“Number is twenty five”)
+    console.log("Number is twenty five")
 }
 ```
 
 Number is equal to 3415:
 
 ```js
-const nc = require(“numbercheck”)
+const nc = require("numbercheck")
 
 let number = 3415
 
 if (nc.isThreeThousandFourHundredFifteen(number)){
-    console.log(“Number is three thousand four hundred fifteen”)
+    console.log("Number is three thousand four hundred fifteen")
+}
+```
+
+Number is equal to 34.89:
+
+```js
+const nc = require("numbercheck")
+
+let number = 34.89
+
+if (nc.isThirtyFourPointEightyNine(number)){
+    console.log("Number is thirty four point eighty nine")
 }
 ```
 
 That way, your code is a lot cleaner and you can be certain that the checks are safe and of high standard!
+
+But what about other numbers that don't exist as functions in NumberCheck?
+
+Who needs those? They are an unnecessary burden that could overload your app.
 
 I hope this made NumberCheck.js a little easier to understand. Thank you for reading and happy April Fool’s day
