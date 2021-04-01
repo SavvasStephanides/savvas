@@ -2,7 +2,7 @@
 series: explained
 title: NumberCheck.js, explained.
 publishDate: 2021/04/01 11:00
-thumbnail: default.png
+thumbnail: numbercheck.png
 ---
 
 NumberCheck.js is a popular Javascript library for checking that a certain numeric variable is equal to a certain number.
