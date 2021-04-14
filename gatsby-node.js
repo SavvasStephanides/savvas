@@ -58,6 +58,7 @@ function storeSeriesInGraphQL({ actions, createNodeId, createContentDigest }, se
             id: createNodeId(`Series-${seriesItem.slug}`),
             slug: seriesItem.slug,
             title: seriesItem.title,
+            headerLinkOrder: seriesItem.headerLinkOrder,
             internal: {
                 type: "Series",
                 contentDigest: createContentDigest(seriesItem)

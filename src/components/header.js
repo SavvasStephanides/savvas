@@ -4,14 +4,15 @@ import "../style/header.css"
 
 export default function Header({highlightedLink}){
     const data = useStaticQuery(graphql`
-        query {
-            allSeries {
-                nodes {
-                    slug
-                    title
-                }
-            }
+    {
+        allSeries(sort: {fields: headerLinkOrder, order: ASC}, filter: {headerLinkOrder: {gt: 0}}) {
+          nodes {
+            slug
+            title
+            headerLinkOrder
+          }
         }
+      }      
   `)
 
     return <header>

@@ -1,18 +1,26 @@
 [
     {
         "slug": "tips",
-        "title": "Tips"
+        "title": "Tips",
+        "headerLinkOrder": 1
     },
     {
         "slug": "explained",
-        "title": "Explained"
+        "title": "Explained",
+        "headerLinkOrder": 2
     },
     {
         "slug": "reviews",
-        "title": "Reviews"
+        "title": "Reviews",
+        "headerLinkOrder": 4
     },
     {
         "slug": "accessibility",
-        "title": "Accessibility"
+        "title": "Accessibility",
+        "headerLinkOrder": 3
+    },
+    {
+        "slug": "how-savvasme-was-made",
+        "title": "How I made savvas.me"
     }
 ]
