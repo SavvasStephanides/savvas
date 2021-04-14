@@ -18,9 +18,5 @@
         "slug": "accessibility",
         "title": "Accessibility",
         "headerLinkOrder": 3
-    },
-    {
-        "slug": "how-savvasme-was-made",
-        "title": "How I made savvas.me"
     }
 ]
