@@ -13,6 +13,11 @@ export default function Article({post}){
     return <div className="article-container">
         <Helmet>
             <title>{post.meta.title} - Savvas Stephanides</title>
+            <meta charset="UTF-8"/>
+            <meta name="description" content={"An article about " + post.meta.title}/>
+            <meta name="keywords" content={"programming, code, " + post.series.details.title}/>
+            <meta name="author" content="Savvas Stephanides"/>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         </Helmet>
 
         <Thumbnail fileName={post.meta.thumbnail}/>
@@ -23,7 +28,7 @@ export default function Article({post}){
                 <div className="publish-date sans-serif-font">{post.publishDate && "Published " + post.publishDate.toLocaleString()}</div>
             </header>
 
-            <SeriesSection series={post.series}/>
+            <SeriesSection series={post.series} currentPostSlug={post.slug}/>
 
             {/* <div className="ad" dangerouslySetInnerHTML={{__html: `<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
             <ins class="adsbygoogle"
@@ -36,6 +41,8 @@ export default function Article({post}){
                 (adsbygoogle = window.adsbygoogle || []).push({});
             </script>`}}></div> */}
             <div dangerouslySetInnerHTML={{__html: post.contentHtml}} className="sans-serif-font main-article"></div>
+
+            <SeriesSection series={post.series} currentPostSlug={post.slug}/>
         </article>
         
     </div>
@@ -47,7 +54,7 @@ function Thumbnail({fileName}){
     </figure>
 }
 
-function SeriesSection({series}){
+function SeriesSection({series, currentPostSlug}){
     let postsFromSeries = series.posts.sort((a,b) => new Date(a.meta.publishDate) - new Date(b.meta.publishDate))
 
     return <section className="series-section">
@@ -55,7 +62,13 @@ function SeriesSection({series}){
         <ol>
             {
                 postsFromSeries.map((postItem) => {
-                    return <li key={postItem.slug}><a className="sans-serif-font" href={"/" + series.details.slug + "/" + postItem.slug}>{postItem.meta.title}</a></li>
+                    return <li key={postItem.slug} current={postItem.slug === currentPostSlug ? "1" : "0"}>
+                        <a 
+                            className="sans-serif-font" 
+                            href={"/" + series.details.slug + "/" + postItem.slug}>
+                                {postItem.meta.title}
+                        </a>
+                    </li>
                 })
             }
         </ol>
