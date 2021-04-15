@@ -107,3 +107,46 @@ p > code{
 .article-container h4{
     font-size: 24px;
 }
+
+.series-section{
+    background-color: #222831;
+    /* border: 3px solid #eee; */
+    margin-top: 40px;
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0 0 15px #32e0c4;
+}
+
+.series-section h2{
+    padding: 30px;
+    font-size: 21px;
+    border: 0;
+    margin: 0;
+    border-bottom: 1px solid #eee;
+}
+
+.series-section ol{
+    list-style: none;
+    margin: 0;
+    height: 300px;
+    overflow-y: auto;
+    counter-reset: series-post-counter;
+}
+
+.series-section ol li{
+    counter-increment: series-post-counter;
+}
+
+.series-section ol li a{
+
+    display: block;
+    line-height: 1.5;
+    border-bottom: 1px solid #32e0c4;
+    padding: 30px;
+    text-decoration: none;
+}
+
+.series-section ol li a:before{
+    content: counter(series-post-counter);
+    margin-right: 30px;
+}

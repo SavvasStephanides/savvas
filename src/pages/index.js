@@ -24,8 +24,11 @@ export const query = graphql`
       slug
       contentHtml
       series{
-        slug
-        title
+        details{
+          slug
+        	title
+        }
+        
       }
       meta {
         title

@@ -7,12 +7,12 @@ import PostList from "../components/post-list";
 export default function Post({data}) {
     const posts = data.allPost.nodes
     
-    return <Layout highlightedLink={posts[0].series.slug}>
+    return <Layout highlightedLink={posts[0].series.details.slug}>
         <Helmet>
-          <title>{posts[0].series.title} - Savvas Stephanides</title>
+          <title>{posts[0].series.details.title} - Savvas Stephanides</title>
         </Helmet>
 
-        <h1 className="serif-font">{posts[0].series.title}</h1>
+        <h1 className="serif-font">{posts[0].series.details.title}</h1>
 
         <PostList posts={posts}/>
         
@@ -21,14 +21,16 @@ export default function Post({data}) {
 
 export const query = graphql`
 query ($slug: String!) {
-  allPost(sort: {order: ASC, fields: meta___publishDate}, filter: {series: {slug: {eq: $slug}}}) {
+  allPost(sort: {order: ASC, fields: meta___publishDate}, filter: {series: {details: {slug: {eq: $slug}}}}) {
     nodes {
       slug
       title
       id
       series {
-        slug
-        title
+        details {
+          slug
+          title
+        }
       }
       meta {
         title
@@ -38,4 +40,5 @@ query ($slug: String!) {
     }
   }
 }
+
 `

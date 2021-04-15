@@ -40,7 +40,10 @@ function storePostsInGraphQL({ actions, createNodeId, createContentDigest }, pos
             slug: post.slug,
             title: "The title",
             contentHtml: post.contentHtml,
-            series: series.find(s => s.slug === post.meta.series),
+            series: {
+                details: series.find(s => s.slug === post.meta.series),
+                posts: posts.filter(p => p.meta.series === post.meta.series)
+            },
             meta: post.meta,
             internal: {
                 type: "Post",
