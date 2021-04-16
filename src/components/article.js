@@ -25,7 +25,7 @@ export default function Article({post}){
         <article>
             <header>
                 <h1 className="serif-font">{post.meta.title}</h1>
-                <div className="publish-date sans-serif-font">{post.publishDate && "Published " + post.publishDate.toLocaleString()}</div>
+                <div className="publish-date sans-serif-font">{post.meta.publishDate && "Published " + post.meta.publishDate.toLocaleString()}</div>
             </header>
 
             <SeriesSection series={post.series} currentPostSlug={post.slug}/>
