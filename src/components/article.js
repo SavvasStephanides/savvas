@@ -30,7 +30,7 @@ export default function Article({post}){
 
             <SeriesSection series={post.series} currentPostSlug={post.slug}/>
 
-            {/* <div className="ad" dangerouslySetInnerHTML={{__html: `<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <div className="ad" dangerouslySetInnerHTML={{__html: `<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
             <ins class="adsbygoogle"
                 style="display:block"
                 data-ad-client="ca-pub-2194018182042050"
@@ -39,7 +39,8 @@ export default function Article({post}){
                 data-full-width-responsive="true"></ins>
             <script>
                 (adsbygoogle = window.adsbygoogle || []).push({});
-            </script>`}}></div> */}
+            </script>`}}></div>
+
             <div dangerouslySetInnerHTML={{__html: post.contentHtml}} className="sans-serif-font main-article"></div>
 
             <SeriesSection series={post.series} currentPostSlug={post.slug}/>
