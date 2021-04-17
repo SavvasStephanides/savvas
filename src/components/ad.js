@@ -1,3 +1,5 @@
+import "../style/ad.css"
+
 import React from "react"
 
 export default function Ad(){
