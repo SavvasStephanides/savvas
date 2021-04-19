@@ -29,11 +29,11 @@ export default function Article({post}){
                 <div className="publish-date sans-serif-font">{post.meta.publishDate && "Published " + post.meta.publishDate.toLocaleString()}</div>
             </header>
 
-            <SeriesSection series={post.series} currentPostSlug={post.slug}/>
-
             <Ad/>
 
             <div dangerouslySetInnerHTML={{__html: post.contentHtml}} className="sans-serif-font main-article"></div>
+
+            <Ad/>
 
             <SeriesSection series={post.series} currentPostSlug={post.slug}/>
         </article>
