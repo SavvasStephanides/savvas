@@ -20,6 +20,11 @@ Which one of the two looks easier to build?
 The mobile follows the "default" layout applied by all browsers without any special CSS, which is the "flow layout". So to keep things simple, start with the mobile layout and *enhance* to a grid for screen sizes that allow it:
 
 ```css
+
+#gallery{
+    /* enter basic CSS to style the gallery here */
+}
+
 @media (min-width: 600px){
     #gallery{
         display: grid;
@@ -36,4 +41,4 @@ More and more people visit the Internet using their mobile devices, and there's 
 
 Designing for mobile first, means you are developing for the growing majority of your visitors. You can later enhance for your desktop audience from that point on.
 
-Thanks for reading. Do you build responsive layouts mobile first or desktop first? Why? [Join the discussion on Twitter](https://twitter.com/SavvasStephnds)!
+Thanks for reading. Do you build responsive layouts mobile first or desktop first? Why? [Join the discussion on Twitter](https://twitter.com/SavvasStephnds/status/1384129106166521864)!
