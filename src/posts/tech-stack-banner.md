@@ -36,7 +36,7 @@ The user interface for this tool is pretty straight forward. Start typing your t
 
 As a test, I've tried to use the tool only using a keyboard. I had no issues whatsoever and there was no part of the app I couldn't access without a mouse. Good job!
 
-## Responsive
+### Responsive
 
 The app is fully responsive. I had no problem using the app in a variety of screen sizes without any trouble.
 
@@ -64,13 +64,19 @@ At the bottom of the page, Andy has provided a link to his business, Brandy Medi
 
 Some of the text in the app doesn't have sufficient contrast against its background. Most importantly, the list of tech stack items in the input.
 
-![](/assets/techstackbanner-stackinput-webaim.png)
+![](/assets/techstackbanner-stackinput.png)
+
+This is what WebAIM says about it:
+
+![A contrast ratio of 1.92:1 which fails all contrast checks](/assets/techstackbanner-stackinput-webaim.png)
 
 The "I'd love it if you attributed the design - No hard feelings if you decide not to." also has some contrast issues which could affect some of the app's visitors.
 
 ![](/assets/techstackbanner-attribute.png)
 
-![](/assets/techstackbanner-attribute-webaim.png)
+This is what WebAIM says about this:
+
+![A contrast ratio of 4.39 which fails all checks for normal text](/assets/techstackbanner-attribute-webaim.png)
 
 ### Checkbox without a label
 
