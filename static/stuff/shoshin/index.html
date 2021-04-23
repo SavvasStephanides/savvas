@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoshin (beginner's mind) - Savvas' stuff</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+    <div id="canvas">
+        <script>
+            var strokes = [
+                {
+                    id: 1,
+                    left: 68,
+                    top: 92
+                },
+                {
+                    id: 2,
+                    left: 149,
+                    top: 158
+                },
+                {
+                    id: 3,
+                    left: 140,
+                    top: 165
+                },
+                {
+                    id: 4,
+                    left: 197,
+                    top: 155
+                },
+                {
+                    id: 5,
+                    left: 133,
+                    top: 33
+                },
+                {
+                    id: 6,
+                    left: 253,
+                    top: 95
+                },
+                {
+                    id: 7,
+                    left: 214,
+                    top: 116
+                },
+                {
+                    id: 8,
+                    left: 90,
+                    top: 410
+                },
+                {
+                    id: 9,
+                    left: 120,
+                    top: 353
+                },
+                {
+                    id: 10,
+                    left: 222,
+                    top: 367
+                },
+                {
+                    id: 11,
+                    left: 316,
+                    top: 343
+                },
+            ]
+
+            strokes.forEach((stroke) => document.write(`
+                <img 
+                    src="strokes/${stroke.id}.png" 
+                    show="0"
+                    alt="Stroke" 
+                    style="
+                        position: absolute; 
+                        top: ${stroke.top}px; 
+                        left: ${stroke.left}px
+                "/>
+            `))
+
+            document.querySelectorAll("#canvas img").forEach((stroke, index) => {
+                setTimeout(() => stroke.setAttribute("show", "1"), index*300)
+            })
+        </script>
+    </div>
+</div>
+</body>
+</html>
