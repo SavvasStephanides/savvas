@@ -18,5 +18,9 @@
         "slug": "accessibility",
         "title": "Accessibility",
         "headerLinkOrder": 3
+    },
+    {
+        "slug": "accessible-tic-tac-toe",
+        "title": "Let's make an accessible tic-tac-toe game!"
     }
 ]
