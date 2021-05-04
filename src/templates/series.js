@@ -6,13 +6,16 @@ import PostList from "../components/post-list";
 
 export default function Post({data}) {
     const posts = data.allPost.nodes
-    
-    return <Layout highlightedLink={posts[0].series.details.slug}>
+    const series = data.series
+
+    console.log(series);
+
+    return <Layout highlightedLink={series.slug}>
         <Helmet>
-          <title>{posts[0].series.details.title} - Savvas Stephanides</title>
+          <title>{series.title} - Savvas Stephanides</title>
         </Helmet>
 
-        <h1 className="serif-font">{posts[0].series.details.title}</h1>
+        <h1 className="serif-font">{series.title}</h1>
 
         <PostList posts={posts}/>
         
@@ -38,6 +41,10 @@ query ($slug: String!) {
         publishDate
       }
     }
+  }
+  series (slug: {eq: $slug}){
+    slug
+    title
   }
 }
 

@@ -13,14 +13,16 @@ In this series we'll be making an accessible tic-tac-toe game from the ground up
 
 So here's the plan:
 
-* Part 1: Create the board with HTML and CSS
+* Part 1: Create a new React app
 
-* Part 2: Create the game logic with Javascript
+* Part 2: Create the board component
 
-* Part 3: Make the game keyboard accessible
+* Part 3: Create the game logic
 
-* Part 4: Make the game screen reader accessible with ARIA Live Regions
+* Part 4: Make the game keyboard accessible
+
+* Part 5: Make the game screen reader accessible with ARIA Live Regions
 
 Let's go!
 
-[Part 1](part-1-create-the-board)
+[Part 1](part-1-create-app)
