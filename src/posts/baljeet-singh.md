@@ -1,7 +1,7 @@
 ---
 series: reviews
 title: Website review #11 - Baljeet Singh
-thumbnail: tick.png
+thumbnail: tick-baljeet.png
 publishDate: 2021/05/05 17:00
 ---
 
