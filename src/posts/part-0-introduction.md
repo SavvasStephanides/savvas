@@ -1,7 +1,7 @@
 ---
 series: accessible-tic-tac-toe
 title: Introduction - Let's make an accessible tic-tac-toe game!
-thumbnail: tic.png
+thumbnail: tictactoe.png
 publishDate: 2021/05/07 09:00
 ---
 
