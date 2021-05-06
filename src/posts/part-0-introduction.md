@@ -2,7 +2,7 @@
 series: accessible-tic-tac-toe
 title: Introduction - Let's make an accessible tic-tac-toe game!
 thumbnail: tic.png
-publishDate: 2021/04/23 13:17
+publishDate: 2021/05/07 09:00
 ---
 
 Hello! Welcome to the new series Let's Make An Accessible Tic-Tac-Toe game! As the name suggests we will be creating the popular game Tic-Tac-Toe. You've probably already made this on your own, so in this series I'm going to take it one step further: make it *accessible*. How? Let's see.
