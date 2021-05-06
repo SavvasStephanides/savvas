@@ -25,4 +25,4 @@ So here's the plan:
 
 Let's go!
 
-[Part 1](part-1-create-app)
+<!-- [Part 1](part-1-create-app) -->
