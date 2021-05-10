@@ -1,7 +1,7 @@
 ---
 series: accessible-tic-tac-toe
 title: Accessible tic-tac-toe Part 1 - Create the app
-thumbnail: tic.png
+thumbnail: tictactoe.png
 publishDate: 2021/05/11 09:00
 ---
 
