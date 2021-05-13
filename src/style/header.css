@@ -10,7 +10,6 @@ header #site-name a{
     margin: auto;
     font-size: 36px;
     font-family: 'Pacifico', cursive;
-    /* text-shadow: 0 0 30px #32e0c4; */
     color: #eee;
     text-decoration: none;
 }
@@ -38,7 +37,6 @@ header section#socials li{
 header section#socials li a{
     color: #eee;
     font-size: 27px;
-    text-shadow: 0px 0px 15px  #32e0c4;
 }
 
 header section#socials li a:hover{
