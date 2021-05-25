@@ -1,7 +1,7 @@
 ---
 series: tips
 title: Need search for your website? THIS is the easiest way to do it!
-thumbnail: default.png
+thumbnail: search.png
 publishDate: 2021/03/04 00:00
 ---
 
