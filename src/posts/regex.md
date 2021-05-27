@@ -121,4 +121,4 @@ For an invalid ID:
 
 ## Learn more
 
-To learn more about regular expressions, check the [MDN guide](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions)!
+The purpose of this article is to introduce you to regular expressions with a simple explanation. To help you get started with regex,you can learn more about regular expressions, by checking the [MDN guide](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions)!
