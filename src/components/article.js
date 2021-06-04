@@ -14,7 +14,7 @@ export default function Article({post}){
     return <div className="article-container">
         <Helmet>
             <title>{post.meta.title} - Savvas Stephanides</title>
-            <meta name="description" content="Free Web tutorials"/>
+            <meta name="description" content={post.meta.description}/>
             <meta name="keywords" content={post.meta.keywords}/>
             <meta name="author" content="Savvas Stephanides"/>
 
