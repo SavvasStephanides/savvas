@@ -38,6 +38,9 @@ query ($slug: String!) {
             title
             thumbnail
             publishDate
+            description
+            keywords
+            twitterimage
         }
     }
 }

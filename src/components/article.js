@@ -9,16 +9,19 @@ export default function Article({post}){
         hljs.highlightAll()
     }, [])
 
-    
+    console.log(post)
 
     return <div className="article-container">
         <Helmet>
             <title>{post.meta.title} - Savvas Stephanides</title>
-            <meta charset="UTF-8"/>
-            <meta name="description" content={"An article about " + post.meta.title}/>
-            <meta name="keywords" content={"programming, code, " + post.series.details.title}/>
+            <meta name="description" content="Free Web tutorials"/>
+            <meta name="keywords" content={post.meta.keywords}/>
             <meta name="author" content="Savvas Stephanides"/>
-            <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+            <meta name="twitter:title" content={post.meta.title}></meta>
+            <meta name="twitter:description" content={post.meta.description}/>
+            <meta name="twitter:image" content={post.meta.twitterimage} />
+
         </Helmet>
 
         <Thumbnail fileName={post.meta.thumbnail}/>

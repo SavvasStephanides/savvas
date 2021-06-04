@@ -3,6 +3,9 @@ series: explained
 title: GraphQL, explained.
 publishDate: 2021/06/03 14:33
 thumbnail: gql.png
+description: A simple introduction to GraphQL and why it's used
+keywords: graphql, web development, api
+twitterimage: https://savvas.me/assets/gql-tw.png
 ---
 
 You probably heard of GraphQL as a new way to retrieve data from a web service. Possibly as an alternative to REST services. But what is it exactly?
