@@ -9,8 +9,6 @@ export default function Article({post}){
         hljs.highlightAll()
     }, [])
 
-    console.log(post)
-
     return <div className="article-container">
         <Helmet>
             <title>{post.meta.title} - Savvas Stephanides</title>
@@ -21,6 +19,13 @@ export default function Article({post}){
             <meta name="twitter:title" content={post.meta.title}></meta>
             <meta name="twitter:description" content={post.meta.description}/>
             <meta name="twitter:image" content={post.meta.twitterimage} />
+
+            <meta property="og:title" content={post.meta.title} />
+            <meta property="og:url" content={"https://savvas.me/" + post.series.details.slug + "/" + post.slug + "/"} />
+            <meta property="og:image" content={post.meta.twitterimage} />
+            <meta property="og:type" content="article" />
+            <meta property="og:description" content={post.meta.description} />
+            <meta property="og:locale" content="en_GB" />
 
         </Helmet>
 
