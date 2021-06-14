@@ -19,6 +19,7 @@ export default function Article({post}){
             <meta name="twitter:title" content={post.meta.title}></meta>
             <meta name="twitter:description" content={post.meta.description}/>
             <meta name="twitter:image" content={post.meta.twitterimage} />
+            <meta name="twitter:card" content="summary_large_image" />
 
             <meta property="og:title" content={post.meta.title} />
             <meta property="og:url" content={"https://savvas.me/" + post.series.details.slug + "/" + post.slug + "/"} />
