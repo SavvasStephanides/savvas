@@ -1,8 +1,11 @@
 ---
 series: explained
 title: Vue, explained.
+description: Vue is a progressive Javascript framework for building complex user interfaces. This is a simple explanation of what it is.
 thumbnail: vue.png
 publishDate: 2021/06/16 13:17
+keywords: vue, vuejs, javascript, ui, interactive
+twitterimage: https://savvas.me/assets/tw-vue.png
 ---
 
 Vue is a Javascript framework that makes it really easy to create interactive user interfaces. It calls itself the <q cite="https://vuejs.org/">The Progressive JavaScript Framework</q> and it's used by [many organisations](https://madewithvuejs.com/), including Apple, Adobe and Google.
