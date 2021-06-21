@@ -1,53 +1,76 @@
-header #site-name{
+header.page-header{
     background-color: #222831;
-    height: 90px;
-    display: flex;
-    
 }
 
-header #site-name a{
+@media (min-width: 900px){
+    header.page-header .content{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 900px;
+        margin: auto;
+    }
+}
+
+header.page-header .content #site-name{
+    height: 90px;
+    display: flex;
+}
+
+header.page-header .content #site-name a{
     display: block;
-    margin: auto;
     font-size: 36px;
     font-family: 'Pacifico', cursive;
     color: #eee;
     text-decoration: none;
+    margin-left: 15px;
 }
 
-header #site-name a:hover{
+@media (max-width: 900px){
+    header.page-header .content #site-name a{
+        margin: auto;
+    }
+}
+
+@media (min-width: 900px){
+    header.page-header .content #site-name a{
+        align-self: center;
+    }
+}
+
+header.page-header .content #site-name a:hover{
     text-shadow: 0 0 30px #32e0c4; 
 }
 
-header section#socials{
+header.page-header .content section#socials{
     background-color: #222831;
     display: flex;
 }
 
-header section#socials ul{
+header.page-header .content section#socials ul{
     list-style-type: none;
     display: flex;
     margin: auto;
 }
 
-header section#socials li{
+header.page-header .content section#socials li{
     padding: 15px;
     align-self: center;
 }
 
-header section#socials li a{
+header.page-header .content section#socials li a{
     color: #eee;
     font-size: 27px;
 }
 
-header section#socials li a:hover{
+header.page-header .content section#socials li a:hover{
     text-shadow: 0px 0px 30px  #32e0c4;
 }
 
-header nav{
+header.page-header .content nav{
     background-color: #222831;
 }
 
-header nav ul{
+header.page-header .content nav ul{
     list-style: none;
     max-width: 900px;
     margin: auto;
@@ -55,7 +78,7 @@ header nav ul{
     overflow-x: auto;
 }
 
-header nav ul li a{
+header.page-header .content nav ul li a{
     color: #eeeeee;
     display: block;
     text-decoration: none;
@@ -64,11 +87,11 @@ header nav ul li a{
     white-space: nowrap;
 }
 
-header nav ul li a:hover{
+header.page-header .content nav ul li a:hover{
     text-decoration: underline;
 }
 
-header nav ul li a[aria-current="page"]{
+header.page-header .content nav ul li a[aria-current="page"]{
     background-color: #393e46;
     text-decoration: underline;
     border-radius: 15px 15px 0 0;
