@@ -16,8 +16,7 @@
     },
     {
         "slug": "accessibility",
-        "title": "Accessibility",
-        "headerLinkOrder": 3
+        "title": "Accessibility"
     },
     {
         "slug": "accessible-tic-tac-toe",

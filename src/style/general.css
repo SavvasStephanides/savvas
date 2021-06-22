@@ -23,15 +23,16 @@ main{
     font-family: 'Montserrat', sans-serif;
 }
 
-main > h1{
+main > h1,
+main > h2{
     color: white;
     max-width: 900px;
     margin: auto;
     margin-bottom: 60px;
     margin-top: 60px;
-    text-align: center;
+    padding-left: 30px;
 }
-
+    
 #skip-navigation{
     position: absolute;
     color: #eee;

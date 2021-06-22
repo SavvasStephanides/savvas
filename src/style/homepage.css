@@ -1,0 +1,90 @@
+#hero{
+    max-width: 900px;
+    margin: auto;
+    display: flex;
+    margin-top: 60px;
+}
+
+#hero .title,
+#hero .description{
+    color: #eee;
+    padding: 15px;
+}
+
+#hero img{
+    width: 150px;
+    border-radius: 100%;
+    border: 9px solid #32e0c4;
+    box-shadow: 0 0 15px #32e0c4;
+}
+
+#hero .text,
+#hero .profilepic{
+    padding: 15px;
+}
+
+@media (max-width: 730px){
+    #hero .profilepic img{
+        width: 90px;
+        border: 3px solid #32e0c4;
+    }
+}
+
+#hero .title{
+    font-size: 33px;
+}
+
+#hero .description{
+    line-height: 1.8;
+    font-size: 21px;
+}
+
+#hero .description a{
+    color: #eee;
+}
+
+section.post-list-section{
+    margin-top: 90px;
+}
+
+section.post-list-section .post-list{
+    margin-top: 30px;
+}
+
+section.post-list-section h2{
+    color: #eee;
+    max-width: 900px;
+    margin: auto;
+    padding-left: 30px;
+    font-size: 27px;
+}
+
+section.post-list-section .description{
+    color: #eee;
+    max-width: 900px;
+    margin: auto;
+    padding-left: 30px;
+    margin-top: 30px;
+    line-height: 1.8;
+    font-size: 21px;
+}
+
+section.post-list-section .description a{
+    color: #eee;
+}
+
+section.post-list-section .more-link{
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+section.post-list-section .more-link a{
+    color: #eee;
+    border: 1px solid #32e0c4;
+    padding: 12px 24px;
+    text-decoration: none;
+    
+}

@@ -8,8 +8,6 @@ export default function Post({data}) {
     const posts = data.allPost.nodes
     const series = data.series
 
-    console.log(series);
-
     return <Layout highlightedLink={series.slug}>
         <Helmet>
           <title>{series.title} - Savvas Stephanides</title>
