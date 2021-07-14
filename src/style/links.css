@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 150px;
+    display: flex;
+}
+header #name{
+    font-family: 'Pacifico', cursive;
+    color: #eee;
+    font-size: 42px;
+    margin: auto;
+}
+
+main{
+    padding: 15px;
+    max-width: 900px;
+    margin: auto;
+}
+
+main ul{
+    list-style: none;
+}
+
+main ul li{
+    margin-top: 21px;
+}
+
+main ul li a{
+    display: block;
+    text-decoration: none;
+    color: #eee;
+    border: 3px solid transparent;
+    padding: 21px 15px;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #222831;
+    text-align: center;
+}
+
+main ul li a:hover{
+    border: 3px solid #eee;
+}
