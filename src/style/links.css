@@ -1,33 +1,33 @@
-*{
+#links-page *{
     margin: 0;
     padding: 0;
 }
-header{
+#links-page header{
     height: 150px;
     display: flex;
 }
-header #name{
+#links-page header #name{
     font-family: 'Pacifico', cursive;
     color: #eee;
     font-size: 42px;
     margin: auto;
 }
 
-main{
+#links-page main{
     padding: 15px;
     max-width: 900px;
     margin: auto;
 }
 
-main ul{
+#links-page main ul{
     list-style: none;
 }
 
-main ul li{
+#links-page main ul li{
     margin-top: 21px;
 }
 
-main ul li a{
+#links-page main ul li a{
     display: block;
     text-decoration: none;
     color: #eee;
@@ -39,6 +39,6 @@ main ul li a{
     text-align: center;
 }
 
-main ul li a:hover{
+#links-page main ul li a:hover{
     border: 3px solid #eee;
 }

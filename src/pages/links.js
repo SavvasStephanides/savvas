@@ -31,7 +31,7 @@ export default function Links(){
             url: "https://instagram.com/sa.vvas"
         }
     ]
-    return <div>
+    return <div id="links-page">
         <Helmet>
             <title>Savvas | Links</title>
             <link rel="preconnect" href="https://fonts.gstatic.com"/>
