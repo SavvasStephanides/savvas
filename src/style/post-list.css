@@ -34,11 +34,12 @@ ul.post-list li a .thumbnail{
     border-radius: 15px;
     box-shadow: 0 0 15px #222831;
     border: 3px solid #222831;
+    filter: grayscale(0.9);
 }
 
 ul.post-list li a:hover .thumbnail{
-    border: 3px solid #32E0C4;
-    box-shadow: 0 0 15px #32E0C4;
+    box-shadow: 0 0 15px #eee;
+    filter: grayscale(0.7);
 }
 
 ul.post-list li a .details{

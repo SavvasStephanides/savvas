@@ -14,8 +14,6 @@
 #hero img{
     width: 150px;
     border-radius: 100%;
-    border: 9px solid #32e0c4;
-    box-shadow: 0 0 15px #32e0c4;
 }
 
 #hero .text,
