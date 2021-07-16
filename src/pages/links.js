@@ -7,8 +7,12 @@ export default function Links(){
 
     let items = [
         {
-            name: "Website",
+            name: "Articles",
             url: "https://savvas.me"
+        },
+        {
+            name: "More articles (Dev.To)",
+            url: "https://dev.to/savvasstephnds"
         },
         {
             name: "Github",
