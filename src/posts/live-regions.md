@@ -22,7 +22,7 @@ There is a problem however with how screen readers interpret this page.
 
 Notice what happens after the user clicks on the Go button:
 
-[VIDEO HERE]
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">There is a problem however with how screen readers interpret this page.<br><br>Notice what happens after the user clicks on the Go button: <a href="https://t.co/CRDrMR29sC">pic.twitter.com/CRDrMR29sC</a></p>&mdash; Savvas Stephanides (@SavvasStephnds) <a href="https://twitter.com/SavvasStephnds/status/1422520443144187905?ref_src=twsrc%5Etfw">August 3, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 Nothing gets announced after the Go button is clicked. The screen reader user has no idea that the text below has been updated.
 
@@ -80,7 +80,7 @@ With a live region, our HTML should look like this:
 
 So now our page would look something like this with a screen reader:
 
-[VIDEO LINK]
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">So now our page would look something like this with a screen reader: <a href="https://t.co/26BYsvsy47">pic.twitter.com/26BYsvsy47</a></p>&mdash; Savvas Stephanides (@SavvasStephnds) <a href="https://twitter.com/SavvasStephnds/status/1422520480876142597?ref_src=twsrc%5Etfw">August 3, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 Now the screen reader announces to the user every time there's a change!
 
