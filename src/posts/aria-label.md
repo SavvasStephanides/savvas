@@ -1,7 +1,7 @@
 ---
 series: explained
 title: aria-label in accessibility, explained.
-publishDate: 2021/07/19 13:00
+publishDate: 2021/08/18 08:47
 thumbnail: arialabel.png
 description: An explanation of the aria-label attribute in accessibility
 keywords: accessibility, aria, aria-label, web development, javascript, hoisting, explained
