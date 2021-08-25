@@ -1,8 +1,11 @@
 ---
 series: accessibility
 title: How to create a Skip Navigation link
-thumbnail: skipnav.png
 publishDate: 2021/04/08 09:39
+thumbnail: skipnav.png
+description: How to easily create a Skip Navigation link for better accessibility
+keywords: skip navigation, link, accessibility, web development, html
+twitterimage: https://savvas.me/assets/skipnav-tw.png
 ---
 
 ## About
