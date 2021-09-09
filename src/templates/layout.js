@@ -20,7 +20,6 @@ export default function Layout({children, highlightedLink}){
         <main id="main-content">
             
             {children}
-            <NewsletterSignUp/>
         </main>
         <Footer/>
         
