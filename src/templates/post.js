@@ -8,6 +8,9 @@ export default function Post({data}) {
     
     const post = data.post
     return <Layout highlightedLink={post.series.details.slug}>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300&display=swap" rel="stylesheet" />
         <Helmet>
           <title>{post.meta.title} - Savvas Stephanides</title>
         </Helmet>

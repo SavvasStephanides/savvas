@@ -6,10 +6,6 @@
     padding-bottom: 60px;
 }
 
-.article-container figure.cover{
-    /* text-align: center; */
-}
-
 .article-container figure.cover img{
     height: 150px;
 }
@@ -73,6 +69,8 @@
 .article-container pre,
 .article-container code{
     background-color: #222831;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 18px;
 }
 
 p > code{
