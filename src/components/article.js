@@ -3,6 +3,7 @@ import "../style/article.css"
 import { Helmet } from "react-helmet"
 import hljs from 'highlight.js'
 import Ad from "./ad"
+import { Link } from "gatsby"
 
 export default function Article({post}){
     useEffect(() => {
@@ -60,7 +61,9 @@ function SeriesSection({series, currentPostSlug}){
     let postsFromSeries = series.posts.sort((a,b) => new Date(a.meta.publishDate) - new Date(b.meta.publishDate))
 
     return <section className="series-section">
-        <h2 className="sans-serif-font"><a href={"/" + series.details.slug}>{series.details.title}</a> ({series.posts.length} part series)</h2>
+        <h2 className="sans-serif-font">
+            <Link to={"/" + series.details.slug}>{series.details.title}</Link> ({series.posts.length} part series)
+        </h2>
         <ol>
             {
                 postsFromSeries.map((postItem) => {
