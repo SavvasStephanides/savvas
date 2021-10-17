@@ -30,7 +30,9 @@ export default function Header({highlightedLink}){
             </section>
             <nav>
                 <ul>
-                    <li><a href="/" className="sans-serif-font" aria-current={highlightedLink === "home" && "page"}>Home</a></li>
+                    <li>
+                        <Link to="/" className="sans-serif-font" aria-current={highlightedLink === "home" && "page"}>Home</Link>
+                    </li>
                     {
                         data.allSeries.nodes.map((seriesItem) => {
                             return <li key={seriesItem.slug}>
