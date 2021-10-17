@@ -1,6 +1,7 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import "../style/header.css"
+import { Link } from "gatsby"
 
 export default function Header({highlightedLink}){
     const data = useStaticQuery(graphql`
@@ -33,7 +34,7 @@ export default function Header({highlightedLink}){
                     {
                         data.allSeries.nodes.map((seriesItem) => {
                             return <li key={seriesItem.slug}>
-                                <a href={"/" + seriesItem.slug} className="sans-serif-font" aria-current={highlightedLink === seriesItem.slug && "page"}>{seriesItem.title}</a>
+                                <Link to={"/" + seriesItem.slug} className="sans-serif-font" aria-current={highlightedLink === seriesItem.slug && "page"}>{seriesItem.title}</Link>
                             </li>
                         })
                     }
