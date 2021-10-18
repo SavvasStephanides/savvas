@@ -18,7 +18,7 @@ export default function Header({highlightedLink}){
 
     return <header className="page-header">
         <div className="content">
-            <div id="site-name"><a href="/" className="handwritten-font">Savvas</a></div>
+            <div id="site-name"><Link to="/" className="handwritten-font">Savvas</Link></div>
             <section id="socials">
                 <ul>
                     <li><a href="https://twitter.com/savvasstephnds" target="_blank" rel="noopener noreferrer" aria-label="Twitter"><i className="fab fa-twitter" aria-hidden="true"></i></a></li>
