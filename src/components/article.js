@@ -68,11 +68,9 @@ function SeriesSection({series, currentPostSlug}){
             {
                 postsFromSeries.map((postItem) => {
                     return <li key={postItem.slug} current={postItem.slug === currentPostSlug ? "1" : "0"}>
-                        <a 
-                            className="sans-serif-font" 
-                            href={"/" + series.details.slug + "/" + postItem.slug}>
-                                {postItem.meta.title}
-                        </a>
+                        <Link to={"/" + series.details.slug + "/" + postItem.slug} className="sans-serif-font">
+                            {postItem.meta.title}
+                        </Link>
                     </li>
                 })
             }
