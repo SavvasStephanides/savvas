@@ -1,4 +1,12 @@
-# React Hooks, explained.
+---
+series: explained
+title: React Hooks, explained.
+publishDate: 2021/10/19 14:33
+thumbnail: reacthooks.png
+description: React Hooks are a simple way of adding interactivity to a website. But what is it?
+keywords: react, hooks, javascript, web development
+twitterimage: https://savvas.me/assets/reacthooks-tw.png
+---
 
 Suppose you need to buy some new clothes.
 
