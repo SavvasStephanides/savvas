@@ -45,3 +45,7 @@ main > h2{
 #skip-navigation:focus{
     top: 0;
 }
+
+a:focus{
+    border: 3px solid yellow;
+}
