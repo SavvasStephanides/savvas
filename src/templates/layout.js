@@ -15,7 +15,7 @@ export default function Layout({children, highlightedLink}){
             <link rel="preconnect" href="https://fonts.gstatic.com"/>
             <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Montserrat:wght@500&family=Pacifico&display=swap" rel="stylesheet"/>
         </Helmet>
-        <a id="skip-navigation" className="sans-serif-font" href="#main-content">Skip navigation</a>
+        <a id="skip-navigation" className="sans-serif-font" href="#main-content">Skip to main content</a>
         <Header highlightedLink={highlightedLink}/>
         <main id="main-content">
             
