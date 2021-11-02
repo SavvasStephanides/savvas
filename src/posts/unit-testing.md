@@ -3,6 +3,9 @@ series: explained
 title: Unit testing, explained
 publishDate: 2021/04/27 15:30
 thumbnail: tube.png
+description: The best way to make sure your program works as it should. So what is it? Let's explain.
+keywords: unit testing, testing, programming, software development
+twitterimage: https://savvas.me/assets/unittesting-tw.png
 ---
 
 You’ve heard about it, heard people talk about it, people swear by it. But what is it?
