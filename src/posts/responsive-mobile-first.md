@@ -1,8 +1,11 @@
 ---
 series: tips
 title: Building a responsive website? Start with mobile first!
-thumbnail: mobfirst.png
 publishDate: 2021/04/19 12:25
+thumbnail: mobfirst.png
+description: It's simpler and more beneficial to start a responsive website with mobile. Here's why.
+keywords: web design, responsive web design, web development, css
+twitterimage: https://savvas.me/assets/mobfirst-tw.png
 ---
 
 When designing a new responsive layout, which one do you do first, desktop or mobile? Here, I'll show you why it's best to develop the mobile version first and desktop second.
