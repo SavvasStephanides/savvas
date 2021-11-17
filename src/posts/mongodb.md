@@ -81,4 +81,4 @@ So not only is your data stored in a format that just makes sense, and your app 
 
 That is where the name Mongo comes from. It's short for Humongous! 😀
 
-Can't wait to get started? Visit the MongoDB documentation to get started: https://docs.mongodb.com/manual/tutorial/getting-started/
+Can't wait to get started? Visit the [MongoDB documentation to get started](https://docs.mongodb.com/manual/tutorial/getting-started/)
