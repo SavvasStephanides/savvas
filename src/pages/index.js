@@ -9,16 +9,16 @@ export default function Home({data}) {
 
   let postListSections = [
     {
+      id: "explained",
+      title: "Dev, Explained",
+      description: `Explainers, praised by developers worldwide, get rid of the tech jargon to offer clean and friendly explanations of various development-related topics!`,
+      seriesUrl: "/explained"
+    },
+    {
       id: "tips",
       title: "Quick tips",
       description: "One minute tips for the curious yet busy developer!",
       seriesUrl: "/tips"
-    },
-    {
-      id: "explained",
-      title: "Explained",
-      description: `<a href="https://twitter.com/AliyuCodes/status/1400842760123568131">@AliyuCodes</a>: \"I still haven’t met anyone who simplifies tech stuff better than Savvas\". These explainers, praised by developers worldwide, get rid of the tech jargon to offer clean and friendly explanations of various development-related topics!`,
-      seriesUrl: "/explained"
     },
     {
       id: "reviews",
