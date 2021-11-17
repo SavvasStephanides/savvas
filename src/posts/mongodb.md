@@ -34,9 +34,18 @@ You obviously need to store this data somewhere. How would this work if you were
 
 As this data looks quite complex, you'd need at least 3 tables in your SQL database:
 
-* A user table for the basic info
-* An address table to store home address details
-* A hobbies table to store the list of hobbies for each user.
+A `users` table for the basic info
+
+![](/assets/mongodb-userstable.png)
+
+An `address` table to store home address details
+
+![](/assets/mongodb-addresstable.png)
+
+A hobbies table to store the list of hobbies for each user.
+
+![](/assets/mongodb-hobbiestable.png)
+
 
 So if you request the user details for a specific ID, the web service would:
 
