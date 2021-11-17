@@ -18,15 +18,15 @@ Suppose you are tasked to build a web service, where you give it an ID and it gi
 
 ```json
 {
-    "id": 105,
-    "firstName": "Emily",
-    "lastName": "Matilda",
-    "address": {
-        "street": "101 High St",
-        "city": "Thurgarton",
-        "postCode": "NR11 6YD"
-    },
-    "hobbies": ["Running", "Painting"]
+    "id": 105,
+    "firstName": "Emily",
+    "lastName": "Matilda",
+    "address": {
+        "street": "101 High St",
+        "city": "Thurgarton",
+        "postCode": "NR11 6YD"
+    },
+    "hobbies": ["Running", "Painting"]
 }
 ```
 
@@ -61,15 +61,15 @@ In MongoDB, all we need to do is to store the data for Emily in a document, in t
 
 ```json
 {
-    "id": 105,
-    "firstName": "Emily",
-    "lastName": "Matilda",
-    "address": {
-        "street": "101 High St",
-        "city": "Thurgarton",
-        "postCode": "NR11 6YD"
-    },
-    "hobbies": ["Running", "Painting"]
+    "id": 105,
+    "firstName": "Emily",
+    "lastName": "Matilda",
+    "address": {
+        "street": "101 High St",
+        "city": "Thurgarton",
+        "postCode": "NR11 6YD"
+    },
+    "hobbies": ["Running", "Painting"]
 }
 ```
 
