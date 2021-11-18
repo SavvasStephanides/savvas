@@ -11,7 +11,7 @@ export default function Home({data}) {
     {
       id: "explained",
       title: "Dev, Explained",
-      description: `Explainers, praised by developers worldwide, get rid of the tech jargon to offer clean and friendly explanations of various development-related topics!`,
+      description: `Explainers, praised by developers worldwide, that get rid of the tech jargon to offer clean and friendly explanations of various development-related topics!`,
       seriesUrl: "/explained"
     },
     {
@@ -23,6 +23,7 @@ export default function Home({data}) {
     {
       id: "reviews",
       title: "Website reviews",
+      description: "Websites of developers, new and experienced, reviewed",
       seriesUrl: "/reviews"
     }
   ]
