@@ -1,6 +1,6 @@
 ---
 series: explained
-title: Javascript Hosting, explained.
+title: Javascript Hoisting, explained.
 publishDate: 2021/07/19 13:00
 thumbnail: hoisting.png
 description: A brief and simple explanation of Hoisting in Javascript
@@ -8,7 +8,7 @@ keywords: web development, javascript, hoisting, explained
 twitterimage: https://savvas.me/assets/jshoisting-tw.png
 ---
 
-What is Hosting in Javascript?
+What is Hoisting in Javascript?
 
 ## Let's explain!
 
@@ -99,4 +99,4 @@ You'll get the desired result!
 > Hello
 ```
 
-And that's how hoisting works in simple words. Thank you for reading. I hope this has made hosting slightly easier. 👋👋👋
+And that's how hoisting works in simple words. Thank you for reading. I hope this has made hoisting slightly easier. 👋👋👋
