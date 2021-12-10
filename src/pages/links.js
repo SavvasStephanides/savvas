@@ -7,19 +7,23 @@ export default function Links(){
 
     let items = [
         {
-            name: "Articles",
+            name: "Website",
             url: "https://savvas.me"
         },
         {
-            name: "More articles (Dev.To)",
+            name: "Articles on DEV",
             url: "https://dev.to/savvasstephnds"
+        },
+        {
+            name: "Articles on Hashnode",
+            url: "https://savvasstephanides.hashnode.dev/"
         },
         {
             name: "Github",
             url: "https://www.github.com/savvasstephanides"
         },
         {
-            name: "Newsletter",
+            name: "Newsletter: The Friday Roundup",
             url: "https://www.getrevue.co/profile/savvasstephnds"
         },
         {
