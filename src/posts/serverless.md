@@ -85,4 +85,4 @@ Let's see some providers now.
 
 * [Google Cloud Functions](https://cloud.google.com/functions)
 
-[Netlify Functions](https://www.netlify.com/products/functions/)
+* [Netlify Functions](https://www.netlify.com/products/functions/)
