@@ -59,7 +59,7 @@ Hang on a minute, I hear you ask. Doesn't "server-less" basically mean "without 
 
 No. Let me explain.
 
-# Why is it called "Serverless"?
+## Why is it called "Serverless"?
 
 To help us understand why it's called "serverless", let's have a look at a similar common word: "wireless".
 
