@@ -1,23 +1,26 @@
 [
+    
     {
-        "slug": "tips",
-        "title": "Tips",
+        "slug": "explained",
+        "title": "Dev, Explained",
         "headerLinkOrder": 1
     },
     {
-        "slug": "explained",
-        "title": "Explained",
+        "slug": "tips",
+        "title": "Tips",
         "headerLinkOrder": 2
+    },
+    {
+        "slug": "accessibility",
+        "title": "Accessibility",
+        "headerLinkOrder": 3
     },
     {
         "slug": "reviews",
         "title": "Reviews",
         "headerLinkOrder": 4
     },
-    {
-        "slug": "accessibility",
-        "title": "Accessibility"
-    },
+    
     {
         "slug": "accessible-tic-tac-toe",
         "title": "Let's make an accessible tic-tac-toe game!"
