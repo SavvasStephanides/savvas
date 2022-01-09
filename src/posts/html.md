@@ -1,7 +1,7 @@
 ---
 series: explained
 title: HTML, explained.
-publishDate: 2022/01/09 15:22
+publishDate: 2022/01/09 17:57
 thumbnail: html.png
 description: HTML is the backbone of the web. So what is it? Let's explain!
 keywords: html, web, hypertext markup language
