@@ -1,6 +1,6 @@
 ---
 series: reviews
-title: Website review #14: Randy Davoh
+title: Website review #14 - Randy Davoh
 publishDate: 2022/01/18 14:00
 thumbnail: rdavoh.png
 description: A website review
