@@ -88,6 +88,6 @@ The code above essentially hides the `nav` element (the navigation menu) by defa
 
 To learn more about responsive web design:
 
-* [HTML Responsive Web Design by W3Schools](https://www.w3schools.com/html/html_responsive.asp)
+* [HTML Responsive Web Design](https://www.w3schools.com/html/html_responsive.asp) by W3Schools
 
 * [Responsive Web Design - What It Is And How To Use It](https://www.smashingmagazine.com/2011/01/guidelines-for-responsive-web-design/) by Smashing Magazine
