@@ -60,12 +60,12 @@ So, to put these together, to make the heading red for small screens, we can do:
 
 That's it! 
 
-<video width="320" height="240" src="/assets/responsive.mov" autoplay loop>
+<video width="320" height="240" src="/assets/responsive.mov" autoplay muted loop>
 </video>
 
 A common usage is to hide an navigation bar from a website
 
-<video width="320" height="240" src="/assets/responsive-menu.mov" autoplay loop>
+<video width="320" height="240" src="/assets/responsive-menu.mov" autoplay muted loop>
 </video>
 
 Here it is in CSS:
