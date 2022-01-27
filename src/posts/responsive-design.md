@@ -60,16 +60,12 @@ So, to put these together, to make the heading red for small screens, we can do:
 
 That's it! 
 
-<video width="100%" controls>
-  <source src="/assets/responsive.mov"
-            type="video/mov">
+<video width="320" height="240" src="/assets/responsive.mov">
 </video>
 
 A common usage is to hide an navigation bar from a website
 
-<video width="100%" controls>
-  <source src="/assets/responsive-menu.mov"
-            type="video/mov">
+<video width="320" height="240" src="/assets/responsive-menu.mov">
 </video>
 
 Here it is in CSS:
