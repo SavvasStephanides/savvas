@@ -27,7 +27,7 @@ the HTML would look like this:
 
 What a website looks like, is handled by another language called `CSS`.
 
-[HTML, explained](/explained/css)
+[CSS, explained](/explained/css)
 
 For example, if you want the paragraph (`<p>`) called `my-name` from above to have a red text, 
 
