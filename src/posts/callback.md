@@ -1,7 +1,7 @@
 ---
 series: explained
 title: Javascript Callback functions, explained.
-publishDate: 2022/01/6 14:00
+publishDate: 2022/01/06 14:00
 thumbnail: callback.png
 description: Callback functions in Javascript, explained.
 keywords: javascript, promises, callback functions
