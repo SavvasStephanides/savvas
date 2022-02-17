@@ -1,7 +1,7 @@
 ---
 series: explained
 title: Javascript, explained.
-publishDate: 2021/02/10 14:00
+publishDate: 2022/02/10 14:00
 thumbnail: js.png
 description: Javascript can really make your website come alive. So what is it?
 keywords: javascript, programming, web development, fundamentals
