@@ -12,7 +12,7 @@ This is a website:
 
 ![Screenshot of a simple website with a title, two paragraphs and a link](/assets/box01.png)
 
-This simple website has some these elements:
+This simple website has these elements:
 
 * A title
 * Two paragraphs
