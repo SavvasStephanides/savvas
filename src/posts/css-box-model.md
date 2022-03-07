@@ -82,7 +82,7 @@ This is the content
 The content in an element can be anything, but in our example our element only has some text in it, for simplicity. Let's style our text to give it a red color and make it slightly bigger:
 
 ```css
-p{
+#my-element{
     color: red;
     font-size: 30px;
 }
@@ -95,7 +95,7 @@ p{
 Next, let's style the area around the content. Let's increase the padding to 30 pixels and change its background colour to a light grey:
 
 ```css
-p{
+#my-element{
     padding: 30px;
     background-color: lightgrey;
 }
@@ -108,7 +108,7 @@ p{
 Now, let's style the border of the element. Let's give it a size of 21 pixels and make its color black:
 
 ```css
-p{
+#my-element{
     border: 21px solid black;
 }
 ```
@@ -119,10 +119,11 @@ p{
 
 Finally, let's style the area outside the border. Let's give our element a top margin so that it has a space from the element on top of it of 60 pixels:
 
-p{
+```css
+#my-element{
     margin-top: 60px;
 }
-
+```
 ![](/assets/box13.png)
 
 With everything together, this is how our CSS would look like for our element:
