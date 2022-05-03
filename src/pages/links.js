@@ -11,6 +11,10 @@ export default function Links(){
             url: "https://savvas.me"
         },
         {
+            name: "Χώρκατον",
+            url: "https://savvas.me/xorkaton"
+        },
+        {
             name: "Articles on DEV",
             url: "https://dev.to/savvasstephnds"
         },
@@ -21,10 +25,6 @@ export default function Links(){
         {
             name: "Github",
             url: "https://www.github.com/savvasstephanides"
-        },
-        {
-            name: "Newsletter: The Friday Roundup",
-            url: "https://www.getrevue.co/profile/savvasstephnds"
         },
         {
             name: "Twitter",
