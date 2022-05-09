@@ -15,11 +15,11 @@ export default function Links(){
             url: "https://savvas.me/xorkaton"
         },
         {
-            name: "Articles on DEV",
+            name: "Articles",
             url: "https://dev.to/savvasstephnds"
         },
         {
-            name: "Articles on Hashnode",
+            name: "Savvas on Accessibility",
             url: "https://savvasstephanides.hashnode.dev/"
         },
         {
