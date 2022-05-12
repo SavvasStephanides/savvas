@@ -1,10 +1,10 @@
 ---
 series: explained
-title: API, explained.
+title: CSS Flexbox, explained.
 publishDate: 2022/05/11 12:00
 thumbnail: flexbox.png
 description: A brief introduction to the CSS property Flexbox.
-keywords: css, flexbox, web development, web design, flex
+keywords: css, flexbox, flexible box, web development, web design, flex
 twitterimage: https://savvas.me/assets/flexbox-tw.png
 ---
 
