@@ -1,0 +1,18 @@
+header #profile-picture{
+    display: flex;
+    height: 180px;
+}
+
+header #profile-picture img{
+    margin: auto;
+}
+
+header #page-name{
+    display: flex;
+    height: 30px;
+}
+
+header #page-name h1{
+    margin: auto;
+    color: white;
+}

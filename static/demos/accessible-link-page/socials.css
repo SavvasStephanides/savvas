@@ -1,0 +1,15 @@
+section#socials{
+    height: 120px;
+    display: flex;
+}
+
+section#socials ul{
+    display: flex;
+    list-style: none;
+    gap: 9px;
+    margin: auto;
+}
+
+section#socials ul li a:focus{
+    outline: 6px solid yellow;
+}

@@ -1,0 +1,22 @@
+section#links ul{
+    list-style: none;
+}
+
+section#links ul li{
+    max-width: 600px;
+    margin: auto;
+}
+
+section#links ul li a{
+    display: block;
+    background-color: #1E293B;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding: 15px 0;
+    margin-top: 9px;
+}
+
+section#links ul li a:focus{
+    outline: 6px solid yellow;
+}
