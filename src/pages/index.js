@@ -35,14 +35,11 @@ export default function Home({data}) {
 
     <section id="hero">
       <div className="text">
-        <h1 className="serif-font title">Hello!</h1>
+        <h1 className="serif-font title">Hello! <span aria-hidden="true">👋</span></h1>
         <div className="sans-serif-font description">
         You are a curious developer, always trying to learn and get better. If you agree with this statement, welcome! 
         From quick one minute <a href="/tips">tips</a>, website <a href="/reviews">reviews</a>, to <a href="/explained">jargon-free explainers</a> of various topics praised by developers <em>worldwide</em> for their simplicity, you'll feel right at home here!  
         </div>
-      </div>
-      <div className="profilepic">
-        <img src="/assets/me.jpg" alt=""/>
       </div>
     </section>
 

@@ -6,9 +6,12 @@
     padding-bottom: 60px;
     letter-spacing: 1px;
 }
-
+.article-container figure.cover{
+    text-align: center;
+}
 .article-container figure.cover img{
-    height: 150px;
+    height: 90px;
+    
 }
 
 .article-container article img{
@@ -30,7 +33,7 @@
 }
 
 .article-container .publish-date{
-    margin-top: 15px;
+    margin-top: 3px;
     font-size: 15px;
     text-transform: uppercase;
 }

@@ -1,5 +1,5 @@
 #hero{
-    max-width: 900px;
+    max-width: 930px;
     margin: auto;
     display: flex;
     margin-top: 60px;
@@ -29,7 +29,7 @@
 }
 
 #hero .title{
-    font-size: 33px;
+    font-size: 60px;
 }
 
 #hero .description{
