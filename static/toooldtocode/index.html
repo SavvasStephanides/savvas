@@ -25,7 +25,7 @@
             <form id="age-form" onsubmit="checkAge()">
                 <label for="age-input">Your age:</label>
                 <input type="number" id="age-input">
-                <input type="submit" value="Check"/>
+                <input type="submit" value="Check" id="check-button"/>
             </form>
 
             <section id="message">
@@ -40,10 +40,8 @@
     </div>
     <script>
         function checkAge(){
-            document.querySelector("#check-button").addEventListener("click", () => {
-                let ageInput = document.querySelector("#age-input").value
-                showResult(ageInput)
-            })
+            let ageInput = document.querySelector("#age-input").value
+            showResult(ageInput)
         }
     </script>
 </body>
