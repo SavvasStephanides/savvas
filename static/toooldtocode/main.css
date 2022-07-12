@@ -7,7 +7,7 @@ main #age-form{
 }
 main #age-form label,
 main #age-form input,
-main #age-form input[type='submit']{
+main #age-form button{
     display: block;
     text-align: center;
     margin-top: 6px;
@@ -21,7 +21,7 @@ main #age-form input{
     font-size: 21px;
 }
 
-main #age-form input[type='submit']{
+main #age-form button{
     background-color: darkgreen;
     color: white;
     padding: 12px;

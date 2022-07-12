@@ -22,11 +22,9 @@
         </header>
         
         <main>
-            <form id="age-form" onsubmit="checkAge()">
-                <label for="age-input">Your age:</label>
-                <input type="number" id="age-input">
-                <input type="submit" value="Check" id="check-button"/>
-            </form>
+            <label for="age-input">Your age:</label>
+            <input type="number" id="age-input">
+            <button id="check-button" onclick="checkAge()">Check</button>
 
             <section id="message">
                 <h2 class="visually-hidden">Result</h2>
