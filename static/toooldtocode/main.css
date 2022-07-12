@@ -5,9 +5,9 @@ main #age-form{
     max-width: 600px;
     margin: auto;
 }
-main #age-form label,
-main #age-form input,
-main #age-form button{
+main label,
+main input,
+main button{
     display: block;
     text-align: center;
     margin-top: 6px;
