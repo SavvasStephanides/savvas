@@ -22,9 +22,11 @@
         </header>
         
         <main>
-            <label for="age-input">Your age:</label>
-            <input type="number" id="age-input">
-            <button id="check-button" onclick="checkAge()">Check</button>
+            <form id="age-form">
+                <label for="age-input">Your age:</label>
+                <input type="number" id="age-input">
+                <input type="submit" id="check-button" />
+            </form>
 
             <section id="message">
                 <h2 class="visually-hidden">Result</h2>
@@ -37,10 +39,11 @@
 
     </div>
     <script>
-        function checkAge(){
+        document.querySelector("#age-form").addEventListener("submit", (e) => {
+            e.preventDefault()
             let ageInput = document.querySelector("#age-input").value
             showResult(ageInput)
-        }
+        })
     </script>
 </body>
 </html>

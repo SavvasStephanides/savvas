@@ -1,6 +1,5 @@
 header{
     background-color: white;
-    border-bottom: 1px solid black;
 }
 
 header h1{
@@ -9,6 +8,6 @@ header h1{
 }
 
 header .description{
-    padding: 15px 0;
+    padding: 9px 0;
     text-align: center;
 }
