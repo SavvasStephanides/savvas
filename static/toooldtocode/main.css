@@ -22,7 +22,7 @@ main #age-form input{
 }
 
 main #age-form input[type='submit']{
-    background-color: darkgreen;
+    background-color: #006400;
     color: white;
     padding: 12px;
     border: 0;
