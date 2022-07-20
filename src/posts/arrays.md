@@ -32,7 +32,7 @@ Same way we store text or numbers, we can store lists of text or numbers.
 
 In our case, we want to store a list of items to buy. That means we need a text list!
 
-In Javascript, for example, this is how we store links:
+In Javascript, for example, this is how we store lists:
 
 ```js
 let stuffToBuy = ["Milk", "Orange juice", "A laptop for coding"]
@@ -66,7 +66,7 @@ stuffToBuy.length
 // 3
 ```
 
-Or go through each and every element in the list and so something specific with it.
+Or go through each and every element in the list and do something specific with it.
 
 This is called a "loop" and it's something we'll talk about in another thread, so watch this space.
 
