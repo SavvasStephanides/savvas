@@ -11,10 +11,6 @@ export default function Links(){
             url: "https://savvas.me"
         },
         {
-            name: "Χώρκατον",
-            url: "https://savvas.me/xorkaton"
-        },
-        {
             name: "Articles",
             url: "https://dev.to/savvasstephnds"
         },
