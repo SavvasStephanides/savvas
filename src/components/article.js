@@ -43,6 +43,13 @@ export default function Article({post}){
 
             <div dangerouslySetInnerHTML={{__html: post.contentHtml}} className="sans-serif-font main-article"></div>
 
+            <div className="shareOnTwitterLink">
+                <a class="twitter-share-button"
+                    href={`https://twitter.com/intent/tweet?text=${post.meta.title} by @SavvasStephnds`}>
+                    Tweet
+                </a>
+            </div>
+
             <Ad/>
 
             <SeriesSection series={post.series} currentPostSlug={post.slug}/>
