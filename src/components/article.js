@@ -46,7 +46,7 @@ export default function Article({post}){
             <div className="shareOnTwitterLink">
                 <a class="twitter-share-button"
                     href={`https://twitter.com/intent/tweet?text=${post.meta.title} by @SavvasStephnds https://savvas.me/${post.series.details.slug}/${post.slug}`}>
-                    Share this article on Twitter!
+                    🐥 Share this article on Twitter!
                 </a>
             </div>
 
