@@ -166,3 +166,12 @@ p > code{
 .series-section ol li[current="1"] a{
     background-color: hsl(216, 18%, 30%);
 }
+
+.twitter-share-button{
+    display: block;
+    border: 3px solid white;
+    margin-top: 30px;
+    text-decoration: none;
+    font-family: sans-serif;
+    text-align: center;
+}
