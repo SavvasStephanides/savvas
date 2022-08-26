@@ -33,6 +33,10 @@ export default function Links(){
         {
             name: "Instagram",
             url: "https://instagram.com/sa.vvas"
+        },
+        {
+            name: "YouTube",
+            url: "https://www.youtube.com/channel/UChJhietJHyiHPFP10BucIHA"
         }
     ]
     return <div id="links-page">
