@@ -33,7 +33,6 @@
     position: absolute;
     top: -60px;
     left: calc(50% - 60px);
-    outline: 12px solid #CBD5E1;
   }
   
   #card header h1{
