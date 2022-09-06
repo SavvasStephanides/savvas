@@ -1,7 +1,8 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: 'Bebas Neue', cursive;
+
   }
   
   body{
@@ -38,7 +39,7 @@
   #card header h1{
     text-align: center;
     margin-top: 30px;
-    font-size: 1.5em;
+    font-size: 2em;
   }
   
   #card header #description{
@@ -85,7 +86,7 @@
     text-decoration: none;
     border-radius: 21px;
     color: black;
-    font-size: 1.2em;
+    font-size: 1.5em;
     background-color: #F8FAFC;
   }
   
@@ -103,6 +104,7 @@
     list-style: none;
   }
   
-  #card main section ul.links-list li a:hover{
+  #card main section ul.links-list li a:hover,
+  #card main section ul.links-list li a:focus{
     outline: 6px solid #0EA5E9;
   }
