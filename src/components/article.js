@@ -39,8 +39,6 @@ export default function Article({post}){
                 <div className="publish-date sans-serif-font">{post.meta.publishDate && "Published " + post.meta.publishDate.toLocaleString()}</div>
             </header>
 
-            <Ad/>
-
             <div dangerouslySetInnerHTML={{__html: post.contentHtml}} className="sans-serif-font main-article"></div>
 
             <div className="shareOnTwitterLink">

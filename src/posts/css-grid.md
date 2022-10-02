@@ -14,6 +14,8 @@ Suppose you are a photographer and you’ve taken some photos you want to show t
 
 So you decide to learn HTML and CSS so can create a website with all your photos.
 
+..AD..
+
 It takes you a bit of time but eventually you manage to upload all your photos for everyone to see!
 
 By default, a browser displays all elements one under the other. Your website is no exception.
@@ -25,6 +27,8 @@ It’s great that you have a place to show off your work, but the website doesn�
 Essentially you want all your photos to be shown in rows and columns, like a grid. How can you do that?
 
 This is where CSS Grid comes in!
+
+..AD..
 
 Now suppose this is the [HTML](/explained/html) you created to place your photos:
 
@@ -87,6 +91,8 @@ CSS Grid works best in larger displays so to find out more about how to accommod
 
 [Responsive design, explained](/explained/responsive-design)
 
+..AD..
+
 ## Next steps
 
 Now that you got a good first idea of what a grid is, these will get you up to speed:
@@ -96,3 +102,5 @@ Now that you got a good first idea of what a grid is, these will get you up to s
 * [CSS Grid Layout](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout) - MDN
 
 * [CSS Grid Layout Crash Course](https://www.youtube.com/watch?v=jV8B24rSN5o) - Traversy Media on YouTube
+
+..AD..

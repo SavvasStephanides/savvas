@@ -14,6 +14,8 @@ This piece of text contains some instructions on what to show on the website, an
 
 So how does it work?
 
+..AD..
+
 Suppose you want to write a small document. Something that contains a title and two paragraphs. Something that would look like this:
 
 ![A basic document with a title and two paragraphs](/assets/html-basicdoc.png)
@@ -31,6 +33,8 @@ A title (or a first-level heading) can be written using the `h1` tag like so:
 With this line, you're basically telling the browser:
 
 > Show me a title that says "My vacation".
+
+..AD..
 
 A paragraph can be written using the `p` tag. So to write our two paragraphs, we do this in HTML:
 
@@ -104,6 +108,8 @@ A few things to notice from the code above:
 
 And this is HTML in a nutshell!
 
+..AD..
+
 ## Learn more
 
 To learn more about HTML, check out these resources:
@@ -111,3 +117,5 @@ To learn more about HTML, check out these resources:
 [1] [HTML Tutorial - W3Schools](https://www.w3schools.com/html/default.asp)
 
 [2] [Introduction to HTML - MDN Web Docs](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML)
+
+..AD..

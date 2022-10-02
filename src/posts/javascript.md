@@ -10,6 +10,8 @@ twitterimage: https://savvas.me/assets/js-tw.png
 
 Javascript is the part of a website that is responsible for responding to user actions. This can really make a website come to life! How does it do that?
 
+..AD..
+
 Any website must contain some content. The content of a website is handled by a language called `HTML`.
 
 [HTML, explained](/explained/html)
@@ -54,6 +56,8 @@ No, because CSS is responsible with how a website looks.
 So what can we use? This is where *Javascript* comes in!
 
 ## Enter Javascript
+
+..AD..
 
 Javascript is the third and last of the languages for building websites. It's what adds interaction to a website.
 
@@ -113,6 +117,8 @@ Now when the user clicks the button, a popup (alert) will appear saying "Hello!"
 <video width="320" height="240" src="/assets/jse04.mov" autoplay muted loop>
 </video>
 
+..AD..
+
 Congratulations! You've added your first interaction to your website! You made your website come to life!
 
 Now there are lots of things you can do, like changing colours, adding and removing elements, even code entire games that are playable in your browser using Javascript!
@@ -122,3 +128,5 @@ For a proper introduction to Javascript, I suggest this 3.5 hour free tutorial f
 <iframe width="560" height="315" src="https://www.youtube.com/embed/PkZNo7MFNFg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Thank you for reading!
+
+..AD..
