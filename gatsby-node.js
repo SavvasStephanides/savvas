@@ -24,7 +24,7 @@ function getPostsFromFiles(){
         var content = fs.readFileSync("./src/posts/" + file, "utf-8")
         
         let html = converter.makeHtml(content)
-        html = html.replace("..AD..", `<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        html = html.replaceAll("..AD..", `<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
         <ins class="adsbygoogle"
             style="display:block"
             data-ad-client="ca-pub-2194018182042050"
