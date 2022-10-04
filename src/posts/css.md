@@ -10,6 +10,8 @@ twitterimage: https://savvas.me/assets/css-tw.png
 
 CSS is basically a document that decides how things should look like on a web page. What does this mean exactly?
 
+..AD..
+
 Suppose you want to create a webpage about your vacation in Crete. 
 
 ![](/assets/css01.png)
@@ -25,6 +27,8 @@ To create the content of the web page, you'll need a file called HTML, which wou
 ```
 
 [More on HTML](/explained/html)
+
+..AD..
 
 The document has a heading ("My vacation") and two paragraphs. In HTML, a heading is `<h1>` and a paragraph is `<p>`.
 
@@ -43,6 +47,8 @@ With CSS we can tell the browser to do things like:
 So how do we do this?
 
 ## Adding CSS to your website.
+
+..AD..
 
 This is an example of a typical page made with HTML:
 
@@ -92,6 +98,8 @@ That's it! If you load (or refresh) the page on your browser again, the heading 
 
 ![](/assets/css02.png)
 
+..AD..
+
 ## More stuff you can do with CSS
 
 CSS has loads of stuff you can "style" your web page with:
@@ -108,6 +116,8 @@ CSS can also be used to add styling to a page, depending on things like screen s
 
 ## Next steps
 
+..AD..
+
 Now you know what CSS is all about. It's basically about taking a page with content and changing how it looks!
 
 Now that you got a basic idea of CSS, here are some links to go study further:
@@ -115,3 +125,5 @@ Now that you got a basic idea of CSS, here are some links to go study further:
 * [CSS by MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
 * [CSS tutorial by W3 Schools](https://www.w3schools.com/css/)
+
+..AD..
