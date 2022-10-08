@@ -28,6 +28,8 @@
                 results.forEach((result) => {
                     resultsList.innerHTML = resultsList.innerHTML + `<li><a href="https://savvas.me/explained/${result.slug}">${result.title}</a></li>`
                 })
+
+                document.querySelector("#search-results-announcer").innerHTML = `${results.length} results found!`
             }
             
         }
@@ -54,6 +56,10 @@
                 <input type="text" id="search-input" onkeyup="showResults()"/>
             </form>
         </section>
+
+        <div class="visually-hidden" id="search-results-announcer" role="region" aria-live="assertive">
+
+        </div>
 
         <section id="search-results">
             <h2 class="visually-hidden">Search results</h2>
