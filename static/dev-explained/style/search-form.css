@@ -1,0 +1,29 @@
+section#search-form{
+    margin-top: 30px;
+}
+section#search-form h2{
+    text-align: center;
+}
+
+section#search-form form{
+    width: 100%;
+    margin-top: 45px;
+
+}
+
+section#search-form form input#search-input{
+    display: block;
+    border: 0;
+    margin-top: 15px;
+    font-size: 21px;
+    padding: 9px 15px;
+    width: calc(100% - 52px);
+    border-radius: 9px;
+
+    background: url('../search.png');
+    background-color: #F8FAFC;
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 42px;
+}

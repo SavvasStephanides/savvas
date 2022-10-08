@@ -1,0 +1,17 @@
+#search-results{
+    margin-top: 30px;
+}
+#search-results ul#results-list{
+    list-style: none;
+    margin-top: 15px;
+}
+
+#search-results ul#results-list li a{
+    display: block;
+    background-color: #F8FAFC;
+    margin-top: 15px;
+    padding: 21px 9px;
+    border-radius: 6px;
+    color: #0F172A;
+    text-decoration: none;
+}

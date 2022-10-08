@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style/generic.css">
+    <link rel="stylesheet" href="style/header.css">
+    <link rel="stylesheet" href="style/accessibility.css">
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="style/search-form.css">
+    <link rel="stylesheet" href="style/results-list.css">
+
+    <script src="https://unpkg.com/lunr/lunr.js"></script>
+    <script src="scripts/search.js"></script>
+
+    <script>
+        function showResults(){
+            let searchInput = document.querySelector("#search-input").value
+            let results = getSearchResults(searchInput)
+            
+            let resultsList = document.querySelector("#results-list")
+
+            resultsList.innerHTML = ""
+
+            if(searchInput !== ""){
+                results.forEach((result) => {
+                    resultsList.innerHTML = resultsList.innerHTML + `<li><a href="https://savvas.me/explained/${result.slug}">${result.title}</a></li>`
+                })
+            }
+            
+        }
+    </script>
+
+    <title>Dev, Explained</title>
+
+    <meta property="og:title" content="Dev, Explained!">
+    <meta property="og:type" content="article" />
+    <meta property="og:description" content="Search for any topic in tech and learn something new!">
+    <meta property="og:image" content="https://savvas.me/dev-explained/devexplained-sm.png">
+    <meta property="og:url" content="https://savvas.me/dev-explained">
+    <meta name="twitter:card" content="summary_large_image">
+</head>
+<body>
+    <header>
+        <h1>Dev, Explained</h1>
+    </header>
+    <main>
+        <section id="search-form">
+            <h2>Learn something new!</h2>
+            <form action="https://www.google.com/search">
+                <label for="search-input" class="visually-hidden">Search</label>
+                <input type="text" id="search-input" onkeyup="showResults()"/>
+            </form>
+        </section>
+
+        <section id="search-results">
+            <h2 class="visually-hidden">Search results</h2>
+            <ul id="results-list">
+            </ul>
+        </section>
+    </main>
+</body>
+</html>
