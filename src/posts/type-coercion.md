@@ -14,6 +14,8 @@ So what is it?
 
 ## Let's explain
 
+..AD..
+
 Type coercion in Javascript is a fancy way of basically saying:
 
 > If you're trying to compare two things with `==` that aren't the same type, try to make them the same type before comparing them.
@@ -46,6 +48,8 @@ This means that the left and right sides are different types (integer and string
 
 What will happen in this case?
 
+..AD..
+
 Once again, this statement will print `"Both sides are equal"` to the console.
 
 But why?
@@ -73,6 +77,8 @@ if (1 == true){
 ```
 
 The left side is an integer, the right side is a boolean. What will happen in this case?
+
+..AD..
 
 Javascript will try to convert the integer into a boolean. If the integer is `1`, it will be converted to `true`. 
 
@@ -110,4 +116,8 @@ Nothing will be printed to the console because the two sides are of different ty
 
 It is highly recommended to use strict equality in your code to avoid unpredictable behaviour.
 
+..AD..
+
 And this concludes this explanation on Type Coercion. Thank you for reading.
+
+..AD..
