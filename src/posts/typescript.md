@@ -9,6 +9,8 @@ What is TypeScript? You've heard about it as the perfect companion to Javascript
 
 ## Let's explain!
 
+..AD..
+
 Take a look at this Javascript code:
 
 ```js
@@ -23,6 +25,8 @@ console.log(sum)
 What is the output of the code? 
 
 If your answer is 15 then you're right! You have two numbers, `number1` and `number2`. If you add them together using the `+` sign, it will give you the total because they're both numbers!
+
+..AD..
 
 Now take a look at this:
 
@@ -71,6 +75,8 @@ console.log(result)
 
 What would you expect it to happen here? 
 
+..AD..
+
 If your answer is "it would give me an error" then you'd be wrong. The result would be "Infinity". But that is non-sense! 
 
 There should be some rule in place that says "you can only divide numbers with numbers". Wouldn't that be nice?
@@ -82,6 +88,8 @@ Enter **TypeScript**!
 *TypeScript* is a language that is basically *extended Javascript*. 
 
 In essence, TypeScript allows you to write Javascript so that when you declare variables or functions, you can also specify what *type* each of them are (string, number, array etc).
+
+..AD..
 
 For example:
 
@@ -121,6 +129,8 @@ This is what's so amazing about TypeScript. It tells you that what you're assign
 
 ## So how do I get started?
 
+..AD..
+
 You can install TypeScript using via NPM:
 
 ```
@@ -138,3 +148,5 @@ You can then attach your JS file to your HTML as normal!
 This thread only touches the absolute basics of TypeScript but you can learn a lot more on the [TypeScript official documentation](https://typescriptlang.org/docs) which is quite comprehensive!
 
 Enjoy!
+
+..AD..
