@@ -8,9 +8,13 @@ keywords: git, software engineering, open source, github
 twitterimage: https://savvas.me/assets/git-tw.png
 ---
 
+..AD..
+
 What is Git?
 
 You've heard about Git, possibly GitHub, as an essential tool for every developer. But what is Git? And what makes it *so* great that makes it almost *synonymous* with software development?
+
+..AD..
 
 ## Let's explain! 
 
@@ -32,6 +36,8 @@ Now you have a list of additional stuff to add to your to-do app:
 * Deleting tasks
 
 The list goes on and on.
+
+..AD..
 
 And everything gets overwhelming.
 
@@ -69,6 +75,8 @@ After 5 long and frustrating hours of messing with the code and fixing the bugs 
 
 Now it's on to the next tasks.
 
+..AD..
+
 You agree on your next pieces of work and the painful cycle continues again.
 
 And again... 
@@ -86,6 +94,8 @@ This is possible thanks to:
 Git!
 
 ![](/assets/git.png)
+
+..AD..
 
 Git is a tool that lets you put your code in a place where everyone who needs to work on the code can access it. It could be online or anywhere else. 
 
@@ -115,6 +125,8 @@ Other things you can do with Git:
 
 And much much more!
 
+..AD..
+
 ## Learn more about Git
 
 This is Git in a nutshell.
@@ -124,5 +136,7 @@ There's obviously a lot more about Git which I won't cover here (maybe in a futu
 To learn more, here's a [very comprehensive guide by Atlassian](https://atlassian.com/git)
 
 Thank you for reading!
+
+..AD..
 
 If you liked this explanation, [see here for more explanations of dev tools](/explained)!
