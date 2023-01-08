@@ -15,6 +15,8 @@ Some small, some large, some simple, some complex.
 
 Pretty much all of them however, live on computers called "servers".
 
+..AD..
+
 Some people who have websites choose to have their websites on their own servers.
 
 The vast majority of website owners, however, choose to store their websites on servers far away for convenience, which can be accessed online.
@@ -26,6 +28,8 @@ If you want to run a website on a server, however, you'd need set everything up 
 * Install the programming language (eg. Node)
 * Everything else that needs to be installed (eg. packages)
 * Run the app
+
+..AD..
 
 If this sounds needlessly complicated, especially for smaller projects, then you're not alone.
 
@@ -41,6 +45,8 @@ Yes it is.
 
 Enter: SERVERLESS
 
+..AD..
+
 ## Serverless
 
 In recent years, providers of servers have realised that setting up your own servers has become a bit of a pain so they have come up with their own versions of "serverless".
@@ -53,6 +59,8 @@ This is it.
 
 No, really. This is it. 
 
+..AD..
+
 The server configuration and other stuff is taken care of for you!
 
 Hang on a minute, I hear you ask. Doesn't "server-less" basically mean "without servers"?
@@ -60,6 +68,8 @@ Hang on a minute, I hear you ask. Doesn't "server-less" basically mean "without 
 No. Let me explain.
 
 ## Why is it called "Serverless"?
+
+..AD..
 
 To help us understand why it's called "serverless", let's have a look at a similar common word: "wireless".
 
@@ -77,6 +87,8 @@ And this is how serverless works.
 
 Let's see some providers now.
 
+..AD..
+
 ## Serverless providers
 
 * [AWS Lambda](https://aws.amazon.com/lambda/)
@@ -86,3 +98,5 @@ Let's see some providers now.
 * [Google Cloud Functions](https://cloud.google.com/functions)
 
 * [Netlify Functions](https://www.netlify.com/products/functions/)
+
+..AD..
