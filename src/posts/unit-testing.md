@@ -30,9 +30,9 @@ Now how do you test to see if this works as it should? If you’re like most pro
 
 ```sh
 oddOrEven(44)
->> ODD
-oddOrEven(85)
 >> EVEN
+oddOrEven(85)
+>> ODD
 ```
 
 Great! Seems to work fine!
