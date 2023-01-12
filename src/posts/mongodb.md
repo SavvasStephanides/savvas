@@ -12,6 +12,8 @@ You've heard about MongoDB as a better alternative to SQL databases. You've even
 
 So what is MongoDB anyway?
 
+..AD..
+
 ## Let's explain.
 
 Suppose you are tasked to build a web service, where you give it an ID and it gives you back details about a user. These details include their home address and a list of hobbies. It would give you back a JSON file like so:
@@ -60,6 +62,8 @@ What if there was a database that can store data in a JSON format for me, so I d
 
 ## Enter MongoDB!
 
+..AD..
+
 MongoDB is a database that, instead of relying on SQL technology to store data, the data is stored as documents. 
 
 So instead of storing each entry as a "row", like it happens in SQL, it is stored as a "document".
@@ -89,5 +93,7 @@ That's it! No conversions, no slow processing of data!
 So not only is your data stored in a format that just makes sense, and your app is faster because it doesn't need to process the data, but because of this speed you can just store a HUMONGOUS amound of data.
 
 That is where the name Mongo comes from. It's short for Humongous! 😀
+
+..AD..
 
 Can't wait to get started? Visit the [MongoDB documentation to get started](https://docs.mongodb.com/manual/tutorial/getting-started/)
