@@ -20,6 +20,8 @@ var numberSquared = 5 * 5
 console.log(numberSquared)
 ```
 
+..AD..
+
 You would expect each line to be executed line by line. First, "Hello world" is stored in the "hello" variable, *THEN* it gets printed, *THEN* the number variable gets assigned to number 5, THEN it gets squared and FINALLY, the number 25 gets printed in the console. Makes sense!
 
 What if there's something that takes a bit longer to complete? Like getting data from an API? In languages like Python, you'd expect your program to freeze until it's completed!
@@ -62,6 +64,8 @@ axios.get("https://api.example.com/data")
 console.log("JS is great!")
 ```
 
+..AD..
+
 What the example above essentially does:
 
 * print "Getting some data for you..."
@@ -69,3 +73,5 @@ What the example above essentially does:
 * (once the data is back) print the data and then print "All done!"
 
 That way your browser doesn't freeze while fetching data. So Javascript is happy, your browser is happy, and (most importantly) your user is happy.
+
+..AD..
