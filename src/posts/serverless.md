@@ -77,7 +77,7 @@ Why is it called wireless? Because in order to connect you don't need wires of c
 
 Or the series of cables lying on the bottom of the ocean connecting you everywhere?
 
-Sould it still be called "wireless"? YES! Because for day to day usage, you don't need to deal with cables!
+Should it still be called "wireless"? YES! Because for day to day usage, you don't need to deal with cables!
 
 This is EXACTLY why it's called "serverless".
 
