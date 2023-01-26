@@ -12,6 +12,8 @@ What is API?
 
 ## Let's explain!
 
+..AD..
+
 So a friend comes up to you and says 
 
 > "I heard you create websites. Can you make me one?"
@@ -29,6 +31,8 @@ After a few days, you get a phone call from your friend:
 > "Hey! Remember you made a website for me? It's great! But I have a Twitter account, and I was wondering if you could add the number of followers at the top right?"
 
 You think it's a great idea so you agree to do it!
+
+..AD..
 
 Thing is, how are you going to grab the number of followers and add it to his website?
 
@@ -52,6 +56,8 @@ Thankfully, Twitter has a functionality to easily get and post information such 
 
 Such a tool is called an *API (Application Programming Interface)*!
 
+..AD..
+
 So you read through the documentation of the Twitter API and sure enough, there's a easy way to grab the follower count of your friend's account with just a URL. 
 
 So you set up a scheduled process which grabs the follower count and adds it to your friend's website.
@@ -62,6 +68,8 @@ A job well done!
 
 APIs are basically a façade programmers can use to make accessing a complex system easier.
 
+..AD..
+
 APIs are tools used by almost all popular websites. Here are some examples:
 
 * [Twitter API](https://developer.twitter.com/)
@@ -71,3 +79,5 @@ APIs are tools used by almost all popular websites. Here are some examples:
 * [Github](https://docs.github.com/en/rest)
 
 I hope this article made API a little easier to understand. Thank you for reading! 👋👋👋
+
+..AD..
