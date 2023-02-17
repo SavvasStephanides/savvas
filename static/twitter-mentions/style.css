@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #0F172A;
+}
+
+body{
+    background-color: #E6ECF3;
+}
+
+header{
+    background-color: #0EA5E9;
+    height: 90px;
+    display: flex;
+}
+
+header h1{
+    font-family: 'Bebas Neue', cursive !important;
+    margin: auto;
+    color: #fff;
+}
+
+main{
+    font-family: 'Merriweather Sans', sans-serif;
+    padding: 15px;
+    max-width: 600px;
+    margin: auto;
+    
+}
+
+main form #username-input{
+    border: 1px solid black;
+    padding: 6px;
+    width: calc(100% - 2px - 12px);
+    font-size: 15px;
+}
+
+main form input[type='submit']{
+    width: 100%;
+    padding: 15px;
+    font-size: 21px;
+    background-color: #0EA5E9;
+    border: 3px solid black;
+    color: #FFFFFF;
+    font-family: 'Bebas Neue', cursive !important;
+}
+
+footer{
+    margin-top: 30px;
+}
+
+footer #created-by{
+    text-align: center;
+    font-family: 'Merriweather Sans', sans-serif;
+}

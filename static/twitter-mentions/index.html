@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Twitter Mentions</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Merriweather+Sans:ital@0;1&display=swap" rel="stylesheet">
+<script src="script.js" defer></script>
+<link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header>
+        <h1>My Twitter mentions</h1>
+    </header>
+    <main>
+        <form action="https://twitter.com/search?q" method="get" style="margin-top: 30px;">
+            <div class="form-item">
+                <label for="username-input">Username: </label>
+                <div style="margin-top: 9px"></div>
+                <input type="text" id="username-input" required/>
+            </div>
+            <div class="form-item" style="margin-top: 15px;">
+                <input type="checkbox" id="include-quote-tweets" checked/>
+                <label for="include-quote-tweets">Include quote tweets</label>
+            </div>
+            <input name="q" id="q" type="hidden" />
+            <input type="hidden" name="f" value="live">
+            <div class="form-item" style="margin-top: 42px;">
+                <input type="submit" value="Show mentions" />
+            </div>
+        </form>
+    </main>
+    <footer>
+        <div id="created-by">
+            By <a href="https://linkfree.eddiehub.io/SavvasStephanides">Savvas Stephanides</a> 💙
+        </div>
+    </footer>
+   
+</body>
+
+</html>
