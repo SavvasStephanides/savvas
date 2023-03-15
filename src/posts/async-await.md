@@ -18,6 +18,8 @@ getData("http://api.example.com/data")
     })
 ```
 
+..AD..
+
 What the code basically does is:
 - request the data
 - *when the data is received* print them to the console
@@ -57,6 +59,8 @@ getData("http://api.example.com/get-user-details")
 
 Yes there is. 👍
 
+..AD..
+
 ## Enter: async and await!
 
 `async`/`await` is a way to tell the browser, "please sit and wait for data to return before proceeding to the next line (like how other programming languages do it), **BUT DO NOT WORRY!** I will *STILL* return a Promise at the end of all this so you won't freeze!"
@@ -74,6 +78,8 @@ async function stuffWithData(){
 
 }
 ```
+
+..AD..
 
 No matter what you return here, it will be returned as a Promise.
 
@@ -100,6 +106,8 @@ What the code above does:
 - Once this is done, print "All done!" to the console.
 - Return the contents of `userDetails`
 
+..AD..
+
 ### Hang on a minute...
 
 *"But"*, I hear you ask, *"didn't we say that sitting and waiting for data to be received will freeze my browser? What's going on here?"*
@@ -116,6 +124,8 @@ async function stuffWithData(){
     return response
 }
 ```
+
+..AD..
 
 Compare this with the previous code. Much less messy right?
 
@@ -137,4 +147,6 @@ Happy user 💁‍♂️
 Happy developer! 👨‍💻
 
 Thank you for reading. I hope this made async/await a little clearer!
+
+..AD..
 
