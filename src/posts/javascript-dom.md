@@ -9,6 +9,8 @@ The DOM, or *Document Object Model*, is a concept in Javascript that allows you 
 
 ## Let's explain!
 
+..AD..
+
 Suppose you have a very basic website. It looks like this:
 
 ![](/assets/domexplained-page.png)
@@ -56,6 +58,8 @@ Let's say we need to add a button on our website, which sets the background colo
 ```
 
 To do anything on the page using Javascript, we need to have a representation of the website as Javascript objects. This way we can access the elements and run scripts on them.
+
+..AD..
 
 For example, to get the button, we can do this:
 
@@ -121,6 +125,8 @@ This is because the DOM in structured sort-of like a tree, according to how you 
 ![](/assets/dom-tree.png)
 
 This is it's called a "DOM Tree".
+
+..AD..
 
 ## Learn more
 
