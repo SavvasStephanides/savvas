@@ -56,6 +56,25 @@
   align-items: center;
   justify-content: center;
   font-size: 21px;
+  position: relative;
+}
+
+#card main section#social-media ul.links-list li a:after{
+  content: attr(aria-label);
+  border: 1px solid #ddd;
+  background-color: white;
+  width: 210px;
+  position: absolute;
+  padding: 9px;
+  text-align: center;
+  bottom: calc(100% + 9px);
+  display: none;
+  border-radius: 6px;
+  box-shadow: 0 0 15px #eee;
+}
+
+#card main section#social-media ul.links-list li a:hover:after{
+  display: block;
 }
 
 #card main section#links ul.links-list {
