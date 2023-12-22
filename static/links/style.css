@@ -1,125 +1,155 @@
-* {
-  margin: 0;
-  padding: 0;
-  font-family: 'Bebas Neue', cursive;
-
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Bebas Neue', sans-serif;
 }
 
-#card {
-  position: relative;
-  border-radius: 15px;
-  padding-top: 60px;
-  margin: auto;
-  margin: 102px 12px 0px 12px;
-  padding-bottom: 30px;
-  max-width: 600px;
+header .cover-image{
+    background-color: aqua;
+    background: url('assets/cover_images/dev.jpg');
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    width: 100%;
+    height: 150px;
 }
 
-@media (min-width: 600px) {
-  #card {
-    margin-left: auto;
-    margin-right: auto;
-  }
+header .cover-image.fit{
+    background: url('assets/cover_images/fit.jpg');
 }
 
-#card #card-profile {
-  width: 120px;
-  border-radius: 100%;
-  position: absolute;
-  top: -60px;
-  left: calc(50% - 60px);
+header .profile-picture{
+    position: relative;
+    height: 45px;
 }
 
-#card header h1 {
-  text-align: center;
-  margin-top: 30px;
-  font-size: 2em;
+header .profile-picture img{
+    width: 90px;
+    border-radius: 100%;
+    position: absolute;
+    top: -45px;
+    left: calc(50% - 45px);
+    border: 3px solid #fff;
 }
 
-#card main section#social-media ul.links-list {
-  display: flex;
-  gap: 9px;
-  justify-content: center;
-  margin-top: 30px;
+header h1{
+    margin-top: 18px;
+    text-align: center;
 }
 
-#card main section#social-media ul.links-list li a {
-  display: block;
-  text-decoration: none;
-  width: 42px;
-  height: 42px;
-  color: black;
-  border: 1px solid #eee;
-  box-shadow: 0 0 15px #eee;
-  border-radius: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 21px;
-  position: relative;
+nav{
+    display: flex;
+    justify-content: center;
+    margin-top: 18px;
 }
 
-#card main section#social-media ul.links-list li a:after{
-  content: attr(aria-label);
-  border: 1px solid #ddd;
-  background-color: white;
-  width: 210px;
-  position: absolute;
-  padding: 9px;
-  text-align: center;
-  bottom: calc(100% + 9px);
-  display: none;
-  border-radius: 6px;
-  box-shadow: 0 0 15px #eee;
+nav ul{
+    list-style: none;
+    display: flex;
 }
 
-#card main section#social-media ul.links-list li a:hover:after{
-  display: block;
+nav ul li a{
+    display: block;
+    padding: 9px;
+    border: 3px solid darkblue;
+    text-decoration: none;
+    width: 60px;
+    text-align: center;
+    color: black;
+    font-size: 21px;
 }
 
-#card main section#links ul.links-list {
-  margin-top: 30px;
-  display: flex;
-  flex-direction: column;
-  gap: 18px;
+nav.fit ul li a{
+    border: 3px solid darkred;
 }
 
-#card main section#links ul.links-list li a {
-  display: block;
-  margin: 0px 12px;
-  padding: 12px;
-  padding-left: 21px;
-  text-decoration: none;
-  border-radius: 6px;
-  box-shadow: 0 0 15px #eee;
-  color: black;
-  font-size: 1.5em;
-  border: 1px solid #eee;
+nav ul li:first-child a{
+    border-radius: 9px 0 0 9px;
+}
+
+nav ul li:last-child a{
+    border-radius: 0 9px 9px 0;
+}
+
+nav ul li a.open{
+    background-color: darkblue;
+    color: white;
+}
+
+nav.fit ul li a.open{
+    background-color: darkred;
 }
 
 .visually-hidden {
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  height: 1px;
-  overflow: hidden;
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
 }
 
-.links-list {
-  list-style: none;
+main ul.links{
+    max-width: 600px;
+    margin: auto;
+    list-style: none;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 180px);
+    grid-template-rows: repeat(10, 180px);
+    gap: 18px;
 }
-#card main section#social-media ul.links-list li a:hover,
-#card main section#social-media ul.links-list li a:focus,
 
-#card main section#links ul.links-list li a:hover,
-#card main section#links ul.links-list li a:focus{
-  transform: scale(1.1);
-  border: 1px solid #333;
+main ul.links li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: 3px solid #f0f0f0;
+    box-shadow: 0 0 15px 6px #f0f0f0;
+    border-radius: 30px;
+    position: relative;
+    color: black;
+    transition: transform 0.3s ease;
+
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    background-size: contain;
 }
 
-#card main section#social-media ul.links-list li a,
-#card main section#links ul.links-list li a{
-  transition: 0.3s transform;
+main ul.links li a:hover{
+    transform: scale(1.05);
+}
+
+main ul.links li a img{
+    height: 45px;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+
+main ul.links li a .label{
+    position: absolute;
+    bottom: 20px;
+    left: 15px;
+    font-size: 21px;
+    background-color: white;
+    padding: 6px;
+    border-radius: 4px;
+}
+
+main ul.links li[columns='2']{
+    grid-column: span 2;
+}
+
+main ul.links li[columns='3']{
+    grid-column: span 3;
+}
+
+main ul.links li[rows='2']{
+    grid-row: span 2;
+}
+
+main ul.links li[rows='3']{
+    grid-row: span 3;
 }
