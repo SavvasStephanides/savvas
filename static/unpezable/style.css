@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+header{
+    height: 90px;
+    background-color: #0A3342;
+    padding: 9px;
+    display: flex;
+}
+
+header .content{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+    padding-left: 60px;
+}
+
+header .content div.studio-name{
+    color: white;
+    font-size: 21px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+header .content img.logo{
+    display: block;
+    height: 60px;
+}
+
+main section{
+    padding: 30px;
+}
+main section#hero{
+    height: 90px;
+    display: flex;
+    align-items: center;
+}
+
+main section#hero .tagline{
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+}
+
+main section#games ul.game-list{
+    list-style: none;
+    margin: 30px;
+}
+
+@media(min-width: 700px){
+    main section#games ul.game-list{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 15px;
+    }
+}
+
+@media(min-width: 1100px){
+    main section#games ul.game-list{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 15px;
+    }
+}
+
+main section#games ul.game-list li.game a{
+    display: block;
+    background-color: #e6e5fc;
+    padding: 15px;
+    position: relative;
+    margin-top: 72px;
+    padding-top: 90px;
+    text-decoration: none;
+    color: black;
+    border-radius: 12px;
+
+    transition: transform 0.2s ease-in-out;
+}
+
+main section#games ul.game-list li.game a img{
+    display: flex;
+    position:absolute;
+    top: -50px;
+    width: 210px;
+    left: calc(50% - 105px);
+}
+
+main section#games ul.game-list li.game a .description{
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+main section#games ul.game-list li.game a .pseudo-button{
+    margin-top: 30px;
+    background-color: black;
+    width: 210px;
+    padding: 9px 12px;
+    color: white;
+    font-size: 21px;
+    border-radius: 9px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    font-weight: bold;
+}
+
+main section#games ul.game-list li.game a:hover{
+    transform: scale(1.1) rotate(3deg);
+}
+
+section#in-the-news h2{
+    text-align: center;
+    font-size: 33px;
+}
+section#in-the-news ul{
+    list-style: none;
+}
+
+section#in-the-news ul li{
+    margin-top: 45px;
+}
+section#in-the-news ul li a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+section#in-the-news ul li a:hover{
+    text-decoration: underline;
+}
+
+section#in-the-news ul li a img{
+    width: 120px;
+    display: block;
+}
+
+section#in-the-news ul li a .title{
+    font-size: 21px;
+    font-style: italic;
+    width: 300px;
+}
+
+.max-width{
+    max-width: 1200px;
+    margin: auto;
+}
+
+footer{
+    margin-top: 30px;
+    border-top: 1px solid black;
+    text-align: center;
+    padding: 30px 0;
+}
