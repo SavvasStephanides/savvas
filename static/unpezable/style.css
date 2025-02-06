@@ -3,7 +3,6 @@
     padding: 0;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
-
 header{
     height: 90px;
     background-color: #0A3342;
@@ -31,11 +30,8 @@ header .content img.logo{
     height: 60px;
 }
 
-main section{
-    padding: 30px;
-}
 main section#hero{
-    height: 90px;
+    height: 210px;
     display: flex;
     align-items: center;
 }
@@ -70,7 +66,9 @@ main section#games ul.game-list{
 
 main section#games ul.game-list li.game a{
     display: block;
-    background-color: #e6e5fc;
+    background-color: white;
+    border: 1px solid #eee;
+    box-shadow: 0 0 15px #eee;
     padding: 15px;
     position: relative;
     margin-top: 72px;
@@ -99,10 +97,11 @@ main section#games ul.game-list li.game a .description{
 
 main section#games ul.game-list li.game a .pseudo-button{
     margin-top: 30px;
-    background-color: black;
+    background-color: white;
+    border: 1px solid black;
+    color: black;
     width: 210px;
     padding: 9px 12px;
-    color: white;
     font-size: 21px;
     border-radius: 9px;
     text-align: center;
@@ -113,7 +112,12 @@ main section#games ul.game-list li.game a .pseudo-button{
 }
 
 main section#games ul.game-list li.game a:hover{
-    transform: scale(1.1) rotate(3deg);
+    transform: scale(1.05) rotate(1deg);
+}
+
+main section#games ul.game-list li.game a:hover .pseudo-button{
+    background-color: black;
+    color: white;
 }
 
 section#in-the-news h2{
