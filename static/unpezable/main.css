@@ -1,0 +1,13 @@
+section{
+    margin-top: 60px;
+}
+
+section h2{
+    text-align: center;
+    font-size: 30px;
+}
+
+section .content{
+    padding: 0 15px;
+    margin-top: 60px;
+}

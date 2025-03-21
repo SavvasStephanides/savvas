@@ -1,0 +1,33 @@
+form label, form input, form button, form textarea{
+    display: block;
+    margin-top: 9px;
+    max-width: 600px;
+    margin: 9px auto;
+}
+
+form label{
+    font-size: 18px;
+}
+
+form input{
+    border: 1px solid black;
+    width: calc(100% - 2px - 18px);
+    padding: 9px;
+    font-size: 18px;
+}
+
+form textarea{
+    border: 1px solid black;
+    width: calc(100% - 2px - 18px);
+    height: 90px;
+    padding: 9px;
+    font-size: 18px;
+}
+
+form button{
+    padding: 9px 15px;
+    font-size: 18px;
+    background-color: #164E63;
+    color: white;
+    border: 0;
+}
