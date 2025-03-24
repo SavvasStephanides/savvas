@@ -30,4 +30,5 @@ form button{
     background-color: #164E63;
     color: white;
     border: 0;
+    cursor: pointer;
 }
