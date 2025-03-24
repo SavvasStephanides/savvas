@@ -92,6 +92,7 @@ header .menu-container .menu-list li a:hover{
     }
 
     header .menu-container .menu-list li a{
-        font-weight: normal;
+        font-weight: bold;
+        font-size: 18px;
     }
 }

@@ -30,10 +30,14 @@
     z-index: -1;
 }
 
-.link-card img.logo{
+.link-card .logo{
     display: flex;
+}
+
+.link-card .logo img{
     height: 90px;
-    justify-self: center;
+    display: block;
+    margin: auto;
 }
 
 .link-card .description{
